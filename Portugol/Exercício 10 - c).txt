@@ -1,0 +1,35 @@
+programa
+{
+  funcao inicio()
+  {  
+    real largura, comprimento, area, perimetro
+
+    escreva("Digite o tamanho da largura do terreno (em metros): ")
+    leia(largura)
+    escreva("Digite o tamanho do comprimento do terreno (em metros): ")
+    leia(comprimento)
+
+    area = comprimento * largura
+    escreva("\nÁrea igual a: ", area)
+
+    perimetro = 2 * (largura + comprimento)
+    escreva("\nPerímetro igual a: ", perimetro)
+
+    se(area < 100)
+    {
+      escreva("\nTERRENO POPULAR")
+    }
+    se(area >= 100 e area <= 500)
+    {
+      escreva("\nTERRENO MASTER")
+    }
+    se(area > 500)
+    {
+      escreva("\nTERRENO VIP")
+    }
+    se(largura > 10)
+    {
+      escreva("\nTERRENO COMERCIAL")
+    }
+  }
+}
