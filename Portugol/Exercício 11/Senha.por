@@ -1,4 +1,5 @@
-programa {
+programa 
+{
   funcao inicio() 
   {
    cadeia senha
