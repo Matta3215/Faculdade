@@ -1,0 +1,47 @@
+programa
+{
+  funcao inicio()
+  {
+  inteiro num1, num2, num3, num4, prod1, prod2, prod3, prod4, prod5, prod6
+    escreva("Digite o primeiro número: ")
+    leia(num1)
+    escreva("Digite o segundo número: ")
+    leia(num2)
+    escreva("Digite o terceiro número: ")
+    leia(num3)
+    escreva("Digite o quarto número: ")
+    leia(num4)
+
+    prod1 = num1 * num2
+    prod2 = num1 * num3
+    prod3 = num1 * num4
+    prod4 = num2 * num3
+    prod5 = num2 * num4
+    prod6 = num3 * num4
+
+    se(prod1 > prod2 e prod1 > prod3 e prod1 > prod4 e prod1 > prod5 e prod1 > prod6)
+    {
+      escreva("O produto entre o primeiro e o segundo número é maior que os demais") 
+    }
+      se(prod2 > prod1 e prod2 > prod3 e prod2 > prod4 e prod2 > prod5 e prod2 > prod6)
+    {
+      escreva("O produto entre o primeiro e o terceiro número é maior que os demais") 
+    }
+      se(prod3 > prod1 e prod3 > prod2 e prod3 > prod4 e prod3 > prod5 e prod3 > prod6)
+    {
+      escreva("O produto entre o primeiro e o quarto número é maior que os demais") 
+    }
+      se(prod4 > prod1 e prod4 > prod2 e prod4 > prod3 e prod4 > prod5 e prod4 > prod6)
+    {
+      escreva("O produto entre o segundo e o terceiro número é maior que os demais") 
+    }
+      se(prod5 > prod1 e prod5 > prod2 e prod5 > prod3 e prod5 > prod4 e prod5 > prod6)
+    {
+      escreva("O produto entre o segundo e o quarto número é maior que os demais") 
+    }
+      se(prod6 > prod1 e prod6 > prod2 e prod6 > prod3 e prod6 > prod4 e prod6 > prod5)
+    {
+      escreva("O produto entre o terceiro e o quarto número é maior que os demais")
+    }
+  }
+}

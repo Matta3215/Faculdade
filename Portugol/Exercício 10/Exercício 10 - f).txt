@@ -1,0 +1,39 @@
+programa
+{
+  funcao inicio()
+  {
+    inteiro num1, num2, num3, num4, div1, div2
+    escreva("Digite o primeiro número: ")
+    leia(num1)
+    escreva("Digite o segundo número: ")
+    leia(num2)
+    escreva("Digite o terceiro número: ")
+    leia(num3)
+    escreva("Digite o quarto número: ")
+    leia(num4)
+
+    div1 = num1 / num2
+    div2 = num3 / num4
+
+    se(div1 > 3)
+    {
+      escreva("\nValor da primeira divisão: ", div1)
+    }
+    se(div1 < 3)
+    {
+      se(div2 > 3)
+      {
+      escreva("\nValor da segunda divisão: ", div2)
+      }
+    }
+    se(div1 > 3 e div2 > 3)
+    {
+    escreva("\nProdutos maiores do que 3")
+    }
+    senao
+    {
+    escreva("\nPelo menos um dos produtos é menor do que 3")
+    }
+    escreva("\n")
+  }
+}
