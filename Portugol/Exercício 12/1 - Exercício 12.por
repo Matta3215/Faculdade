@@ -13,7 +13,7 @@ programa
       escreva("\nDigite o lado do quadrado(em metros): ")
       leia(l)
 
-      a = l * l
+      a = calcularAreaQuadrado(l)
       escreva("A área do quadrado é igual a: ", a, " m")
       escreva("\n")
     }
@@ -24,7 +24,7 @@ programa
       escreva("\nDigite a largura(em metros): ")
       leia(l)
 
-      a = l * c
+      a = calcularAreaRetangulo(c, l)
       escreva("\nA área do retângulo é igual a: ", a, " m")
       escreva("\n")
     }
@@ -33,11 +33,26 @@ programa
       escreva("\nDigite o raio do círculo(em metros): ")
       leia(r)
 
-      a =  3.14 * (r * r)
+      a =  calcularAreaCirculo(r)
       escreva("\nA área do círculo é igual a: ", a, " m")
       escreva("\n")
     }
     senao 
     escreva("figura geométrica não consta na lista")
+  }
+  funcao real calcularAreaQuadrado(real l)
+  {
+    real calcularAreaQuadrado = l * l
+    retorne calcularAreaQuadrado
+  }  
+  funcao real calcularAreaRetangulo(real c, real l)
+  {
+    real calcularAreaRetangulo = c * l
+    retorne calcularAreaRetangulo
+  }  
+  funcao real calcularAreaCirculo(real r)
+  {
+    real calcularAreaCirculo = 3.14 * (r * r)
+    retorne calcularAreaCirculo
   }
 }
