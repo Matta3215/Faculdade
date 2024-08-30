@@ -1,5 +1,6 @@
 programa 
 {
+  inclua biblioteca Matematica --> mat
   funcao inicio() 
   {
     cadeia formageo
@@ -34,6 +35,9 @@ programa
       leia(r)
 
       a =  calcularAreaCirculo(r)
+
+      a = mat.arredondar(a,2)
+      
       escreva("\nA área do círculo é igual a: ", a, " m")
       escreva("\n")
     }

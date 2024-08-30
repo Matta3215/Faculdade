@@ -3,13 +3,32 @@ programa
   funcao inicio()
   {
     inteiro n
+    inteiro v
     inteiro d = 2
-    inteiro primo = 1
-
+    
     escreva("Digite um numero inteiro positivo: ")
     leia(n)
-    escreva("Inteiro dado = ", n)
 
+    v = primo(n, d)
+
+    se(n == 1)
+    {
+      escreva("\n ", n, " não é primo")
+    }
+    senao se(v == 1)
+    {
+      escreva("\n ", n, " é primo")
+    }
+    senao
+    {
+      escreva("\n ", n, " não é primo")
+    }
+    escreva("\n")
+  }
+
+  funcao inteiro primo(inteiro n, inteiro d)
+  {
+    inteiro primo = 1
     enquanto(primo == 1 e n / 2 >= d) 
     {
       se(n % d == 0)
@@ -18,15 +37,6 @@ programa
       }
         d = d + 1
     }
-    se(n == 1)
-    {
-      escreva("\n ", n, " não é primo")
-    }
-    senao se(primo == 1)
-    {
-      escreva("\n ", n, " é primo")
-    }
-    senao
-      escreva("\n ", n, " não é primo")
+    retorne primo
   }
 }
