@@ -1,0 +1,1679 @@
+<circuit version="1.1.0-SR0" rev="1917" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="Xor Gate" CircId="Xor Gate-10" mainComp="false" Show_id="false" Show_Val="false" Pos="56,-820" rotation="0" hflip="1" vflip="1" label="Xor Gate-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-12" mainComp="false" Show_id="false" Show_Val="false" Pos="152,-768" rotation="0" hflip="1" vflip="1" label="Or Gate-12" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="6 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-13" mainComp="false" Show_id="false" Show_Val="false" Pos="56,-788" rotation="0" hflip="1" vflip="1" label="And Gate-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-14" mainComp="false" Show_id="false" Show_Val="false" Pos="56,-860" rotation="0" hflip="1" vflip="1" label="Xor Gate-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="true" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-15" mainComp="false" Show_id="false" Show_Val="false" Pos="152,-840" rotation="0" hflip="1" vflip="1" label="Xor Gate-15" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Led" CircId="Led-26" mainComp="false" Show_id="false" Show_Val="false" Pos="208,-840" rotation="0" hflip="1" vflip="1" label="Led-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="304,-840" rotation="270" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Led" CircId="Led-56" mainComp="false" Show_id="false" Show_Val="false" Pos="208,-768" rotation="0" hflip="1" vflip="1" label="Led-56" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-57" mainComp="false" Show_id="false" Show_Val="false" Pos="304,-768" rotation="270" hflip="1" vflip="1" label="Ground-57" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-58" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="256,-840" rotation="0" hflip="1" vflip="1" label="Resistor-58" idLabPos="-16,-24" labelrot="0" valLabPos="-9.81587,4.45397" valLabRot="0" Resistance="70 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-60" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="256,-768" rotation="0" hflip="1" vflip="1" label="Resistor-60" idLabPos="-16,-24" labelrot="0" valLabPos="-10.2024,4.45397" valLabRot="0" Resistance="70 Ω" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-61" mainComp="false" Show_id="false" Show_Val="false" Pos="-1240,-644" rotation="90" hflip="1" vflip="1" label="SwitchDip-61" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="4" Exclusive="false" CommonPin="false" State="243" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-63" mainComp="false" Show_id="false" Show_Val="false" Pos="-1264,-680" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-63" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-66" mainComp="false" Show_id="false" Show_Val="false" Pos="-1356,-644" rotation="90" hflip="1" vflip="1" label="SwitchDip-66" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="4" Exclusive="false" CommonPin="false" State="243" />
+
+<item itemtype="Tunnel" CircId="Tunnel-67" mainComp="false" Show_id="false" Show_Val="false" Pos="-1348,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-67" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A3+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-68" mainComp="false" Show_id="false" Show_Val="false" Pos="-980,-552" rotation="630" hflip="1" vflip="1" label="Tunnel-68" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-70" mainComp="false" Show_id="false" Show_Val="false" Pos="-1232,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-70" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B3+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-75" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-552" rotation="270" hflip="1" vflip="1" label="Tunnel-75" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2+" IsBus="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-77" mainComp="false" Show_id="false" Show_Val="false" Pos="-1380,-680" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-77" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-78" mainComp="false" Show_id="false" Show_Val="false" Pos="-1004,-552" rotation="270" hflip="1" vflip="1" label="Tunnel-78" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S4+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-79" mainComp="false" Show_id="false" Show_Val="false" Pos="-1224,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-79" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B2+" IsBus="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-80" mainComp="false" Show_id="false" Show_Val="false" Pos="-992,-616" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-80" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-81" mainComp="false" Show_id="false" Show_Val="false" Pos="-1400,-616" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-81" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-85" mainComp="false" Show_id="false" Show_Val="false" Pos="-1340,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-85" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A2+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-86" mainComp="false" Show_id="false" Show_Val="false" Pos="-1356,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-86" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A4+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-87" mainComp="false" Show_id="false" Show_Val="false" Pos="-1020,-552" rotation="270" hflip="1" vflip="1" label="Tunnel-87" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Tp+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-88" mainComp="false" Show_id="false" Show_Val="false" Pos="-1240,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-88" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B4+" IsBus="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-89" mainComp="false" Show_id="false" Show_Val="false" Pos="-1032,-616" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-89" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-90" mainComp="false" Show_id="false" Show_Val="false" Pos="-1332,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-90" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A1+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-93" mainComp="false" Show_id="false" Show_Val="false" Pos="-996,-552" rotation="270" hflip="1" vflip="1" label="Tunnel-93" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S3+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-94" mainComp="false" Show_id="false" Show_Val="false" Pos="-1216,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-94" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B1+" IsBus="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-95" mainComp="false" Show_id="false" Show_Val="false" Pos="-1284,-616" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-95" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-98" mainComp="false" Show_id="false" Show_Val="false" Pos="-1096,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-98" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C1+" IsBus="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-99" mainComp="false" Show_id="false" Show_Val="false" Pos="-1144,-680" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-99" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-103" mainComp="false" Show_id="false" Show_Val="false" Pos="-1112,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-103" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C3+" IsBus="false" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-104" mainComp="false" Show_id="false" Show_Val="false" Pos="-1120,-644" rotation="90" hflip="1" vflip="1" label="SwitchDip-104" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="4" Exclusive="false" CommonPin="false" State="243" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-105" mainComp="false" Show_id="false" Show_Val="false" Pos="-1164,-616" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-105" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-106" mainComp="false" Show_id="false" Show_Val="false" Pos="-1120,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-106" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C4+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-107" mainComp="false" Show_id="false" Show_Val="false" Pos="-1104,-540" rotation="270" hflip="1" vflip="1" label="Tunnel-107" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C2+" IsBus="false" />
+
+<item itemtype="Switch" CircId="Switch-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-40,-912" rotation="90" hflip="1" vflip="1" label="Switch-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-88,-912" rotation="90" hflip="1" vflip="1" label="Switch-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-136,-912" rotation="90" hflip="1" vflip="1" label="Switch-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Switch" CircId="Switch-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-184,-912" rotation="90" hflip="1" vflip="1" label="Switch-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,-944" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-1" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-125" mainComp="false" Show_id="false" Show_Val="false" Pos="-1284,-292" rotation="0" hflip="1" vflip="1" label="Xor Gate-125" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-131" mainComp="false" Show_id="false" Show_Val="false" Pos="-1284,-332" rotation="0" hflip="1" vflip="1" label="Xor Gate-131" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-138" mainComp="false" Show_id="false" Show_Val="false" Pos="-1188,-312" rotation="0" hflip="1" vflip="1" label="Xor Gate-138" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-159" mainComp="false" Show_id="false" Show_Val="false" Pos="-1380,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-159" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C1+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-160" mainComp="false" Show_id="false" Show_Val="false" Pos="-1428,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-160" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B1+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-161" mainComp="false" Show_id="false" Show_Val="false" Pos="-1476,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-161" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A1+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-165" mainComp="false" Show_id="false" Show_Val="false" Pos="-1172,-356" rotation="810" hflip="1" vflip="1" label="Tunnel-165" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1+" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-170" mainComp="false" Show_id="false" Show_Val="false" Pos="-900,-292" rotation="0" hflip="1" vflip="1" label="Xor Gate-170" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-174" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-356" rotation="810" hflip="1" vflip="1" label="Tunnel-174" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2+" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-176" mainComp="false" Show_id="false" Show_Val="false" Pos="-804,-312" rotation="0" hflip="1" vflip="1" label="Xor Gate-176" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-178" mainComp="false" Show_id="false" Show_Val="false" Pos="-1044,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-178" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B2+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-182" mainComp="false" Show_id="false" Show_Val="false" Pos="-996,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-182" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C2+" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-185" mainComp="false" Show_id="false" Show_Val="false" Pos="-900,-332" rotation="0" hflip="1" vflip="1" label="Xor Gate-185" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-186" mainComp="false" Show_id="false" Show_Val="false" Pos="-1092,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-186" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A2+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-208" mainComp="false" Show_id="false" Show_Val="false" Pos="-276,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-208" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B4+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-216" mainComp="false" Show_id="false" Show_Val="false" Pos="-612,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-216" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C3+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-221" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-221" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C4+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-225" mainComp="false" Show_id="false" Show_Val="false" Pos="-660,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-225" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B3+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-233" mainComp="false" Show_id="false" Show_Val="false" Pos="-708,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-233" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A3+" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-234" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,-292" rotation="0" hflip="1" vflip="1" label="Xor Gate-234" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-236" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,-332" rotation="0" hflip="1" vflip="1" label="Xor Gate-236" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-243" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-292" rotation="0" hflip="1" vflip="1" label="Xor Gate-243" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-246" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-332" rotation="0" hflip="1" vflip="1" label="Xor Gate-246" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-257" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,-356" rotation="450" hflip="1" vflip="1" label="Tunnel-257" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A4+" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-258" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,-312" rotation="0" hflip="1" vflip="1" label="Xor Gate-258" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-260" mainComp="false" Show_id="false" Show_Val="false" Pos="-404,-356" rotation="810" hflip="1" vflip="1" label="Tunnel-260" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S3+" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-268" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-312" rotation="0" hflip="1" vflip="1" label="Xor Gate-268" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-272" mainComp="false" Show_id="false" Show_Val="false" Pos="-20,-356" rotation="810" hflip="1" vflip="1" label="Tunnel-272" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S4+" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-280" mainComp="false" Show_id="false" Show_Val="false" Pos="12,-240" rotation="540" hflip="1" vflip="1" label="Tunnel-280" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Tp+" IsBus="false" />
+
+<item itemtype="And Gate" CircId="And Gate-294" mainComp="false" Show_id="false" Show_Val="false" Pos="56,-764" rotation="0" hflip="1" vflip="1" label="And Gate-294" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-295" mainComp="false" Show_id="false" Show_Val="false" Pos="56,-740" rotation="0" hflip="1" vflip="1" label="And Gate-295" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-296" mainComp="false" Show_id="false" Show_Val="false" Pos="56,-716" rotation="0" hflip="1" vflip="1" label="And Gate-296" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-297" mainComp="false" Show_id="false" Show_Val="false" Pos="56,-692" rotation="0" hflip="1" vflip="1" label="And Gate-297" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-298" mainComp="false" Show_id="false" Show_Val="false" Pos="56,-668" rotation="0" hflip="1" vflip="1" label="And Gate-298" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-315" mainComp="false" Show_id="false" Show_Val="false" Pos="-1284,-188" rotation="0" hflip="1" vflip="1" label="And Gate-315" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-316" mainComp="false" Show_id="false" Show_Val="false" Pos="-1284,-260" rotation="0" hflip="1" vflip="1" label="And Gate-316" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-319" mainComp="false" Show_id="false" Show_Val="false" Pos="-1284,-140" rotation="0" hflip="1" vflip="1" label="And Gate-319" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-324" mainComp="false" Show_id="false" Show_Val="false" Pos="-1284,-236" rotation="0" hflip="1" vflip="1" label="And Gate-324" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-325" mainComp="false" Show_id="false" Show_Val="false" Pos="-1284,-212" rotation="0" hflip="1" vflip="1" label="And Gate-325" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-327" mainComp="false" Show_id="false" Show_Val="false" Pos="-1284,-164" rotation="0" hflip="1" vflip="1" label="And Gate-327" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-328" mainComp="false" Show_id="false" Show_Val="false" Pos="-1188,-240" rotation="0" hflip="1" vflip="1" label="Or Gate-328" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="6 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-337" mainComp="false" Show_id="false" Show_Val="false" Pos="-804,-240" rotation="0" hflip="1" vflip="1" label="Or Gate-337" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="6 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-338" mainComp="false" Show_id="false" Show_Val="false" Pos="-900,-236" rotation="0" hflip="1" vflip="1" label="And Gate-338" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-339" mainComp="false" Show_id="false" Show_Val="false" Pos="-900,-212" rotation="0" hflip="1" vflip="1" label="And Gate-339" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-341" mainComp="false" Show_id="false" Show_Val="false" Pos="-900,-260" rotation="0" hflip="1" vflip="1" label="And Gate-341" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-342" mainComp="false" Show_id="false" Show_Val="false" Pos="-900,-164" rotation="0" hflip="1" vflip="1" label="And Gate-342" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-346" mainComp="false" Show_id="false" Show_Val="false" Pos="-900,-188" rotation="0" hflip="1" vflip="1" label="And Gate-346" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-348" mainComp="false" Show_id="false" Show_Val="false" Pos="-900,-140" rotation="0" hflip="1" vflip="1" label="And Gate-348" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-357" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-140" rotation="0" hflip="1" vflip="1" label="And Gate-357" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-359" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,-260" rotation="0" hflip="1" vflip="1" label="And Gate-359" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-360" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-212" rotation="0" hflip="1" vflip="1" label="And Gate-360" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-361" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-188" rotation="0" hflip="1" vflip="1" label="And Gate-361" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-362" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-236" rotation="0" hflip="1" vflip="1" label="And Gate-362" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-364" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,-140" rotation="0" hflip="1" vflip="1" label="And Gate-364" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-366" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,-236" rotation="0" hflip="1" vflip="1" label="And Gate-366" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-368" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-240" rotation="0" hflip="1" vflip="1" label="Or Gate-368" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="6 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-371" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,-240" rotation="0" hflip="1" vflip="1" label="Or Gate-371" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="6 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-372" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-164" rotation="0" hflip="1" vflip="1" label="And Gate-372" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-374" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,-212" rotation="0" hflip="1" vflip="1" label="And Gate-374" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-378" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,-188" rotation="0" hflip="1" vflip="1" label="And Gate-378" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-382" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-260" rotation="0" hflip="1" vflip="1" label="And Gate-382" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-383" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,-164" rotation="0" hflip="1" vflip="1" label="And Gate-383" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Resistor" CircId="Resistor-463" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="900,-720" rotation="0" hflip="1" vflip="1" label="Resistor-463" idLabPos="-16,-24" labelrot="0" valLabPos="-10.2024,4.45397" valLabRot="0" Resistance="70 Ω" />
+
+<item itemtype="Switch" CircId="Switch-469" mainComp="false" Show_id="false" Show_Val="false" Pos="460,-872" rotation="90" hflip="1" vflip="1" label="Switch-469" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Led" CircId="Led-475" mainComp="false" Show_id="false" Show_Val="false" Pos="852,-800" rotation="0" hflip="1" vflip="1" label="Led-475" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-476" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="900,-800" rotation="0" hflip="1" vflip="1" label="Resistor-476" idLabPos="-16,-24" labelrot="0" valLabPos="-9.81587,4.45397" valLabRot="0" Resistance="70 Ω" />
+
+<item itemtype="Or Gate" CircId="Or Gate-477" mainComp="false" Show_id="false" Show_Val="false" Pos="796,-720" rotation="0" hflip="1" vflip="1" label="Or Gate-477" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Switch" CircId="Switch-481" mainComp="false" Show_id="false" Show_Val="false" Pos="556,-872" rotation="90" hflip="1" vflip="1" label="Switch-481" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-483" mainComp="false" Show_id="false" Show_Val="false" Pos="700,-780" rotation="0" hflip="1" vflip="1" label="Xor Gate-483" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Switch" CircId="Switch-486" mainComp="false" Show_id="false" Show_Val="false" Pos="604,-872" rotation="90" hflip="1" vflip="1" label="Switch-486" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-487" mainComp="false" Show_id="false" Show_Val="false" Pos="700,-820" rotation="0" hflip="1" vflip="1" label="Xor Gate-487" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="true" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Ground" CircId="Ground-488" mainComp="false" Show_id="false" Show_Val="false" Pos="948,-720" rotation="270" hflip="1" vflip="1" label="Ground-488" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Led" CircId="Led-489" mainComp="false" Show_id="false" Show_Val="false" Pos="852,-720" rotation="0" hflip="1" vflip="1" label="Led-489" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-493" mainComp="false" Show_id="false" Show_Val="false" Pos="428,-904" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-493" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Switch" CircId="Switch-494" mainComp="false" Show_id="false" Show_Val="false" Pos="508,-872" rotation="90" hflip="1" vflip="1" label="Switch-494" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-495" mainComp="false" Show_id="false" Show_Val="false" Pos="948,-800" rotation="270" hflip="1" vflip="1" label="Ground-495" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-496" mainComp="false" Show_id="false" Show_Val="false" Pos="796,-800" rotation="0" hflip="1" vflip="1" label="Xor Gate-496" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-492" mainComp="false" Show_id="false" Show_Val="false" Pos="700,-728" rotation="0" hflip="1" vflip="1" label="And Gate-492" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-497" mainComp="false" Show_id="false" Show_Val="false" Pos="652,-744" rotation="0" hflip="1" vflip="1" label="Or Gate-497" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-504" mainComp="false" Show_id="false" Show_Val="false" Pos="700,-696" rotation="0" hflip="1" vflip="1" label="And Gate-504" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-505" mainComp="false" Show_id="false" Show_Val="false" Pos="652,-712" rotation="0" hflip="1" vflip="1" label="Or Gate-505" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-509" mainComp="false" Show_id="false" Show_Val="false" Pos="700,-664" rotation="0" hflip="1" vflip="1" label="And Gate-509" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-513" mainComp="false" Show_id="false" Show_Val="false" Pos="-972,320" rotation="270" hflip="1" vflip="1" label="Tunnel-513" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2++" IsBus="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-516" mainComp="false" Show_id="false" Show_Val="false" Pos="-1268,244" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-516" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-517" mainComp="false" Show_id="false" Show_Val="false" Pos="-1088,320" rotation="270" hflip="1" vflip="1" label="Tunnel-517" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C2++" IsBus="false" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-518" mainComp="false" Show_id="false" Show_Val="false" Pos="-1340,216" rotation="90" hflip="1" vflip="1" label="SwitchDip-518" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="4" Exclusive="false" CommonPin="false" State="243" />
+
+<item itemtype="Tunnel" CircId="Tunnel-522" mainComp="false" Show_id="false" Show_Val="false" Pos="-1324,320" rotation="270" hflip="1" vflip="1" label="Tunnel-522" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A2++" IsBus="false" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-523" mainComp="false" Show_id="false" Show_Val="false" Pos="-1224,216" rotation="90" hflip="1" vflip="1" label="SwitchDip-523" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="4" Exclusive="false" CommonPin="false" State="243" />
+
+<item itemtype="Tunnel" CircId="Tunnel-525" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,320" rotation="270" hflip="1" vflip="1" label="Tunnel-525" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S4++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-526" mainComp="false" Show_id="false" Show_Val="false" Pos="-1096,320" rotation="270" hflip="1" vflip="1" label="Tunnel-526" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C3++" IsBus="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-528" mainComp="false" Show_id="false" Show_Val="false" Pos="-1364,180" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-528" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-529" mainComp="false" Show_id="false" Show_Val="false" Pos="-1200,320" rotation="270" hflip="1" vflip="1" label="Tunnel-529" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B1++" IsBus="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-531" mainComp="false" Show_id="false" Show_Val="false" Pos="-1148,244" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-531" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-534" mainComp="false" Show_id="false" Show_Val="false" Pos="-1128,180" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-534" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-535" mainComp="false" Show_id="false" Show_Val="false" Pos="-1080,320" rotation="270" hflip="1" vflip="1" label="Tunnel-535" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C1++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-536" mainComp="false" Show_id="false" Show_Val="false" Pos="-1208,320" rotation="270" hflip="1" vflip="1" label="Tunnel-536" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B2++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-538" mainComp="false" Show_id="false" Show_Val="false" Pos="-1332,320" rotation="270" hflip="1" vflip="1" label="Tunnel-538" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A3++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-541" mainComp="false" Show_id="false" Show_Val="false" Pos="-1216,320" rotation="270" hflip="1" vflip="1" label="Tunnel-541" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B3++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-543" mainComp="false" Show_id="false" Show_Val="false" Pos="-980,320" rotation="270" hflip="1" vflip="1" label="Tunnel-543" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S3++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-544" mainComp="false" Show_id="false" Show_Val="false" Pos="-1340,320" rotation="270" hflip="1" vflip="1" label="Tunnel-544" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A4++" IsBus="false" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-546" mainComp="false" Show_id="false" Show_Val="false" Pos="-1104,216" rotation="90" hflip="1" vflip="1" label="SwitchDip-546" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="4" Exclusive="false" CommonPin="false" State="243" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-547" mainComp="false" Show_id="false" Show_Val="false" Pos="-976,244" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-547" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-552" mainComp="false" Show_id="false" Show_Val="false" Pos="-1248,180" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-552" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-553" mainComp="false" Show_id="false" Show_Val="false" Pos="-964,320" rotation="630" hflip="1" vflip="1" label="Tunnel-553" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1++" IsBus="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-555" mainComp="false" Show_id="false" Show_Val="false" Pos="-1384,244" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-555" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-556" mainComp="false" Show_id="false" Show_Val="false" Pos="-1224,320" rotation="270" hflip="1" vflip="1" label="Tunnel-556" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B4++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-557" mainComp="false" Show_id="false" Show_Val="false" Pos="-1104,320" rotation="270" hflip="1" vflip="1" label="Tunnel-557" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C4++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-558" mainComp="false" Show_id="false" Show_Val="false" Pos="-1004,320" rotation="270" hflip="1" vflip="1" label="Tunnel-558" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Tp++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-559" mainComp="false" Show_id="false" Show_Val="false" Pos="-1316,320" rotation="270" hflip="1" vflip="1" label="Tunnel-559" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A1++" IsBus="false" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-560" mainComp="false" Show_id="false" Show_Val="false" Pos="-1016,244" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-560" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-565" mainComp="false" Show_id="false" Show_Val="false" Pos="-1320,492" rotation="450" hflip="1" vflip="1" label="Tunnel-565" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C1++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-570" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,492" rotation="450" hflip="1" vflip="1" label="Tunnel-570" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B4++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-571" mainComp="false" Show_id="false" Show_Val="false" Pos="-1416,492" rotation="450" hflip="1" vflip="1" label="Tunnel-571" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A1++" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-573" mainComp="false" Show_id="false" Show_Val="false" Pos="-1224,516" rotation="0" hflip="1" vflip="1" label="Xor Gate-573" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-577" mainComp="false" Show_id="false" Show_Val="false" Pos="-1032,492" rotation="450" hflip="1" vflip="1" label="Tunnel-577" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A2++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-580" mainComp="false" Show_id="false" Show_Val="false" Pos="-600,492" rotation="450" hflip="1" vflip="1" label="Tunnel-580" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B3++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-588" mainComp="false" Show_id="false" Show_Val="false" Pos="-1112,492" rotation="810" hflip="1" vflip="1" label="Tunnel-588" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-589" mainComp="false" Show_id="false" Show_Val="false" Pos="-264,492" rotation="450" hflip="1" vflip="1" label="Tunnel-589" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A4++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-594" mainComp="false" Show_id="false" Show_Val="false" Pos="-552,492" rotation="450" hflip="1" vflip="1" label="Tunnel-594" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C3++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-596" mainComp="false" Show_id="false" Show_Val="false" Pos="-344,492" rotation="810" hflip="1" vflip="1" label="Tunnel-596" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S3++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-600" mainComp="false" Show_id="false" Show_Val="false" Pos="72,616" rotation="540" hflip="1" vflip="1" label="Tunnel-600" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Tp++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-605" mainComp="false" Show_id="false" Show_Val="false" Pos="-936,492" rotation="450" hflip="1" vflip="1" label="Tunnel-605" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C2++" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-611" mainComp="false" Show_id="false" Show_Val="false" Pos="-840,516" rotation="0" hflip="1" vflip="1" label="Xor Gate-611" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-617" mainComp="false" Show_id="false" Show_Val="false" Pos="-168,492" rotation="450" hflip="1" vflip="1" label="Tunnel-617" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C4++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-618" mainComp="false" Show_id="false" Show_Val="false" Pos="-1368,492" rotation="450" hflip="1" vflip="1" label="Tunnel-618" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B1++" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-623" mainComp="false" Show_id="false" Show_Val="false" Pos="-456,556" rotation="0" hflip="1" vflip="1" label="Xor Gate-623" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-631" mainComp="false" Show_id="false" Show_Val="false" Pos="-840,556" rotation="0" hflip="1" vflip="1" label="Xor Gate-631" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-634" mainComp="false" Show_id="false" Show_Val="false" Pos="40,492" rotation="810" hflip="1" vflip="1" label="Tunnel-634" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S4++" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-637" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,536" rotation="0" hflip="1" vflip="1" label="Xor Gate-637" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-638" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,536" rotation="0" hflip="1" vflip="1" label="Xor Gate-638" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-640" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,516" rotation="0" hflip="1" vflip="1" label="Xor Gate-640" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-643" mainComp="false" Show_id="false" Show_Val="false" Pos="24,536" rotation="0" hflip="1" vflip="1" label="Xor Gate-643" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-645" mainComp="false" Show_id="false" Show_Val="false" Pos="-1128,536" rotation="0" hflip="1" vflip="1" label="Xor Gate-645" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-646" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,556" rotation="0" hflip="1" vflip="1" label="Xor Gate-646" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-649" mainComp="false" Show_id="false" Show_Val="false" Pos="-728,492" rotation="810" hflip="1" vflip="1" label="Tunnel-649" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2++" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-652" mainComp="false" Show_id="false" Show_Val="false" Pos="-1224,556" rotation="0" hflip="1" vflip="1" label="Xor Gate-652" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-657" mainComp="false" Show_id="false" Show_Val="false" Pos="-648,492" rotation="450" hflip="1" vflip="1" label="Tunnel-657" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A3++" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-659" mainComp="false" Show_id="false" Show_Val="false" Pos="-984,492" rotation="450" hflip="1" vflip="1" label="Tunnel-659" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="B2++" IsBus="false" />
+
+<item itemtype="Xor Gate" CircId="Xor Gate-661" mainComp="false" Show_id="false" Show_Val="false" Pos="-456,516" rotation="0" hflip="1" vflip="1" label="Xor Gate-661" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-677" mainComp="false" Show_id="false" Show_Val="false" Pos="-1224,672" rotation="0" hflip="1" vflip="1" label="And Gate-677" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-679" mainComp="false" Show_id="false" Show_Val="false" Pos="-1224,608" rotation="0" hflip="1" vflip="1" label="And Gate-679" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-680" mainComp="false" Show_id="false" Show_Val="false" Pos="-1128,616" rotation="0" hflip="1" vflip="1" label="Or Gate-680" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-684" mainComp="false" Show_id="false" Show_Val="false" Pos="-1272,624" rotation="0" hflip="1" vflip="1" label="Or Gate-684" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-686" mainComp="false" Show_id="false" Show_Val="false" Pos="-1224,640" rotation="0" hflip="1" vflip="1" label="And Gate-686" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-687" mainComp="false" Show_id="false" Show_Val="false" Pos="-1272,592" rotation="0" hflip="1" vflip="1" label="Or Gate-687" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-727" mainComp="false" Show_id="false" Show_Val="false" Pos="-888,592" rotation="0" hflip="1" vflip="1" label="Or Gate-727" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-728" mainComp="false" Show_id="false" Show_Val="false" Pos="-888,624" rotation="0" hflip="1" vflip="1" label="Or Gate-728" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-732" mainComp="false" Show_id="false" Show_Val="false" Pos="-744,616" rotation="0" hflip="1" vflip="1" label="Or Gate-732" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-734" mainComp="false" Show_id="false" Show_Val="false" Pos="-840,608" rotation="0" hflip="1" vflip="1" label="And Gate-734" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-735" mainComp="false" Show_id="false" Show_Val="false" Pos="-840,640" rotation="0" hflip="1" vflip="1" label="And Gate-735" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-737" mainComp="false" Show_id="false" Show_Val="false" Pos="-840,672" rotation="0" hflip="1" vflip="1" label="And Gate-737" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-748" mainComp="false" Show_id="false" Show_Val="false" Pos="24,616" rotation="0" hflip="1" vflip="1" label="Or Gate-748" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-749" mainComp="false" Show_id="false" Show_Val="false" Pos="-456,608" rotation="0" hflip="1" vflip="1" label="And Gate-749" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-750" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,608" rotation="0" hflip="1" vflip="1" label="And Gate-750" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-751" mainComp="false" Show_id="false" Show_Val="false" Pos="-456,672" rotation="0" hflip="1" vflip="1" label="And Gate-751" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-753" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,640" rotation="0" hflip="1" vflip="1" label="And Gate-753" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-758" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,672" rotation="0" hflip="1" vflip="1" label="And Gate-758" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-759" mainComp="false" Show_id="false" Show_Val="false" Pos="-120,592" rotation="0" hflip="1" vflip="1" label="Or Gate-759" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-760" mainComp="false" Show_id="false" Show_Val="false" Pos="-504,624" rotation="0" hflip="1" vflip="1" label="Or Gate-760" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-766" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,616" rotation="0" hflip="1" vflip="1" label="Or Gate-766" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-767" mainComp="false" Show_id="false" Show_Val="false" Pos="-504,592" rotation="0" hflip="1" vflip="1" label="Or Gate-767" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="3 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Or Gate" CircId="Or Gate-768" mainComp="false" Show_id="false" Show_Val="false" Pos="-120,624" rotation="0" hflip="1" vflip="1" label="Or Gate-768" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="And Gate" CircId="And Gate-769" mainComp="false" Show_id="false" Show_Val="false" Pos="-456,640" rotation="0" hflip="1" vflip="1" label="And Gate-769" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Num_Inputs="2" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Node" CircId="Node-62" mainComp="false" Pos="-1348,-564" />
+
+<item itemtype="Node" CircId="Node-64" mainComp="false" Pos="-1216,-580" />
+
+<item itemtype="Node" CircId="Node-65" mainComp="false" Pos="-1232,-564" />
+
+<item itemtype="Node" CircId="Node-69" mainComp="false" Pos="-1240,-680" />
+
+<item itemtype="Node" CircId="Node-71" mainComp="false" Pos="-1356,-680" />
+
+<item itemtype="Node" CircId="Node-72" mainComp="false" Pos="-1356,-556" />
+
+<item itemtype="Node" CircId="Node-73" mainComp="false" Pos="-1340,-680" />
+
+<item itemtype="Node" CircId="Node-74" mainComp="false" Pos="-1332,-580" />
+
+<item itemtype="Node" CircId="Node-76" mainComp="false" Pos="-1340,-572" />
+
+<item itemtype="Node" CircId="Node-82" mainComp="false" Pos="-1232,-680" />
+
+<item itemtype="Node" CircId="Node-83" mainComp="false" Pos="-1224,-572" />
+
+<item itemtype="Node" CircId="Node-84" mainComp="false" Pos="-1348,-680" />
+
+<item itemtype="Node" CircId="Node-91" mainComp="false" Pos="-1240,-556" />
+
+<item itemtype="Node" CircId="Node-92" mainComp="false" Pos="-1224,-680" />
+
+<item itemtype="Node" CircId="Node-96" mainComp="false" Pos="-1120,-556" />
+
+<item itemtype="Node" CircId="Node-97" mainComp="false" Pos="-1104,-572" />
+
+<item itemtype="Node" CircId="Node-100" mainComp="false" Pos="-1112,-564" />
+
+<item itemtype="Node" CircId="Node-101" mainComp="false" Pos="-1120,-680" />
+
+<item itemtype="Node" CircId="Node-102" mainComp="false" Pos="-1096,-580" />
+
+<item itemtype="Node" CircId="Node-108" mainComp="false" Pos="-1112,-680" />
+
+<item itemtype="Node" CircId="Node-109" mainComp="false" Pos="-1104,-680" />
+
+<item itemtype="Node" CircId="Node-8" mainComp="false" Pos="-88,-944" />
+
+<item itemtype="Node" CircId="Node-7" mainComp="false" Pos="-136,-944" />
+
+<item itemtype="Node" CircId="Node-6" mainComp="false" Pos="-184,-944" />
+
+<item itemtype="Node" CircId="Node-292" mainComp="false" Pos="-184,-816" />
+
+<item itemtype="Node" CircId="Node-293" mainComp="false" Pos="-136,-824" />
+
+<item itemtype="Node" CircId="Node-299" mainComp="false" Pos="-184,-784" />
+
+<item itemtype="Node" CircId="Node-302" mainComp="false" Pos="-88,-856" />
+
+<item itemtype="Node" CircId="Node-303" mainComp="false" Pos="-184,-760" />
+
+<item itemtype="Node" CircId="Node-304" mainComp="false" Pos="-40,-864" />
+
+<item itemtype="Node" CircId="Node-306" mainComp="false" Pos="-136,-792" />
+
+<item itemtype="Node" CircId="Node-309" mainComp="false" Pos="-88,-768" />
+
+<item itemtype="Node" CircId="Node-310" mainComp="false" Pos="-136,-712" />
+
+<item itemtype="Node" CircId="Node-311" mainComp="false" Pos="-40,-744" />
+
+<item itemtype="Node" CircId="Node-312" mainComp="false" Pos="-88,-720" />
+
+<item itemtype="Node" CircId="Node-313" mainComp="false" Pos="-40,-696" />
+
+<item itemtype="Node" CircId="Node-314" mainComp="false" Pos="-1380,-168" />
+
+<item itemtype="Node" CircId="Node-317" mainComp="false" Pos="-1428,-192" />
+
+<item itemtype="Node" CircId="Node-318" mainComp="false" Pos="-1524,-232" />
+
+<item itemtype="Node" CircId="Node-322" mainComp="false" Pos="-1476,-184" />
+
+<item itemtype="Node" CircId="Node-330" mainComp="false" Pos="-1380,-216" />
+
+<item itemtype="Node" CircId="Node-332" mainComp="false" Pos="-1428,-240" />
+
+<item itemtype="Node" CircId="Node-333" mainComp="false" Pos="-1476,-296" />
+
+<item itemtype="Node" CircId="Node-334" mainComp="false" Pos="-1476,-264" />
+
+<item itemtype="Node" CircId="Node-335" mainComp="false" Pos="-1524,-256" />
+
+<item itemtype="Node" CircId="Node-343" mainComp="false" Pos="-996,-168" />
+
+<item itemtype="Node" CircId="Node-344" mainComp="false" Pos="-1140,-232" />
+
+<item itemtype="Node" CircId="Node-345" mainComp="false" Pos="-1044,-192" />
+
+<item itemtype="Node" CircId="Node-347" mainComp="false" Pos="-1092,-184" />
+
+<item itemtype="Node" CircId="Node-351" mainComp="false" Pos="-1140,-208" />
+
+<item itemtype="Node" CircId="Node-353" mainComp="false" Pos="-1092,-296" />
+
+<item itemtype="Node" CircId="Node-354" mainComp="false" Pos="-1092,-264" />
+
+<item itemtype="Node" CircId="Node-355" mainComp="false" Pos="-1140,-256" />
+
+<item itemtype="Node" CircId="Node-356" mainComp="false" Pos="-372,-208" />
+
+<item itemtype="Node" CircId="Node-358" mainComp="false" Pos="-660,-192" />
+
+<item itemtype="Node" CircId="Node-365" mainComp="false" Pos="-612,-168" />
+
+<item itemtype="Node" CircId="Node-370" mainComp="false" Pos="-756,-232" />
+
+<item itemtype="Node" CircId="Node-373" mainComp="false" Pos="-228,-168" />
+
+<item itemtype="Node" CircId="Node-376" mainComp="false" Pos="-324,-184" />
+
+<item itemtype="Node" CircId="Node-377" mainComp="false" Pos="-372,-232" />
+
+<item itemtype="Node" CircId="Node-379" mainComp="false" Pos="-708,-184" />
+
+<item itemtype="Node" CircId="Node-380" mainComp="false" Pos="-276,-192" />
+
+<item itemtype="Node" CircId="Node-385" mainComp="false" Pos="-708,-296" />
+
+<item itemtype="Node" CircId="Node-386" mainComp="false" Pos="-708,-264" />
+
+<item itemtype="Node" CircId="Node-388" mainComp="false" Pos="-660,-240" />
+
+<item itemtype="Node" CircId="Node-390" mainComp="false" Pos="-612,-216" />
+
+<item itemtype="Node" CircId="Node-392" mainComp="false" Pos="-1044,-240" />
+
+<item itemtype="Node" CircId="Node-394" mainComp="false" Pos="-996,-216" />
+
+<item itemtype="Node" CircId="Node-395" mainComp="false" Pos="-756,-208" />
+
+<item itemtype="Node" CircId="Node-396" mainComp="false" Pos="-756,-256" />
+
+<item itemtype="Node" CircId="Node-400" mainComp="false" Pos="-324,-296" />
+
+<item itemtype="Node" CircId="Node-401" mainComp="false" Pos="-324,-264" />
+
+<item itemtype="Node" CircId="Node-403" mainComp="false" Pos="-276,-240" />
+
+<item itemtype="Node" CircId="Node-405" mainComp="false" Pos="-228,-216" />
+
+<item itemtype="Node" CircId="Node-406" mainComp="false" Pos="-372,-256" />
+
+<item itemtype="Node" CircId="Node-393" mainComp="false" Pos="-996,-336" />
+
+<item itemtype="Node" CircId="Node-391" mainComp="false" Pos="-1044,-328" />
+
+<item itemtype="Node" CircId="Node-389" mainComp="false" Pos="-612,-336" />
+
+<item itemtype="Node" CircId="Node-387" mainComp="false" Pos="-660,-328" />
+
+<item itemtype="Node" CircId="Node-402" mainComp="false" Pos="-276,-328" />
+
+<item itemtype="Node" CircId="Node-404" mainComp="false" Pos="-228,-336" />
+
+<item itemtype="Node" CircId="Node-329" mainComp="false" Pos="-1380,-336" />
+
+<item itemtype="Node" CircId="Node-331" mainComp="false" Pos="-1428,-328" />
+
+<item itemtype="Node" CircId="Node-466" mainComp="false" Pos="460,-904" />
+
+<item itemtype="Node" CircId="Node-482" mainComp="false" Pos="508,-904" />
+
+<item itemtype="Node" CircId="Node-490" mainComp="false" Pos="556,-904" />
+
+<item itemtype="Node" CircId="Node-498" mainComp="false" Pos="460,-776" />
+
+<item itemtype="Node" CircId="Node-499" mainComp="false" Pos="508,-784" />
+
+<item itemtype="Node" CircId="Node-500" mainComp="false" Pos="556,-816" />
+
+<item itemtype="Node" CircId="Node-501" mainComp="false" Pos="604,-824" />
+
+<item itemtype="Node" CircId="Node-506" mainComp="false" Pos="556,-744" />
+
+<item itemtype="Node" CircId="Node-507" mainComp="false" Pos="604,-752" />
+
+<item itemtype="Node" CircId="Node-508" mainComp="false" Pos="508,-736" />
+
+<item itemtype="Node" CircId="Node-510" mainComp="false" Pos="556,-708" />
+
+<item itemtype="Node" CircId="Node-511" mainComp="false" Pos="604,-716" />
+
+<item itemtype="Node" CircId="Node-512" mainComp="false" Pos="-1216,180" />
+
+<item itemtype="Node" CircId="Node-514" mainComp="false" Pos="-1340,304" />
+
+<item itemtype="Node" CircId="Node-515" mainComp="false" Pos="-1088,288" />
+
+<item itemtype="Node" CircId="Node-519" mainComp="false" Pos="-1088,180" />
+
+<item itemtype="Node" CircId="Node-520" mainComp="false" Pos="-1332,180" />
+
+<item itemtype="Node" CircId="Node-521" mainComp="false" Pos="-1224,180" />
+
+<item itemtype="Node" CircId="Node-524" mainComp="false" Pos="-1316,280" />
+
+<item itemtype="Node" CircId="Node-527" mainComp="false" Pos="-1096,180" />
+
+<item itemtype="Node" CircId="Node-530" mainComp="false" Pos="-1324,288" />
+
+<item itemtype="Node" CircId="Node-532" mainComp="false" Pos="-1332,296" />
+
+<item itemtype="Node" CircId="Node-533" mainComp="false" Pos="-1208,288" />
+
+<item itemtype="Node" CircId="Node-537" mainComp="false" Pos="-1104,180" />
+
+<item itemtype="Node" CircId="Node-539" mainComp="false" Pos="-1096,296" />
+
+<item itemtype="Node" CircId="Node-540" mainComp="false" Pos="-1216,296" />
+
+<item itemtype="Node" CircId="Node-542" mainComp="false" Pos="-1324,180" />
+
+<item itemtype="Node" CircId="Node-545" mainComp="false" Pos="-1340,180" />
+
+<item itemtype="Node" CircId="Node-548" mainComp="false" Pos="-1200,280" />
+
+<item itemtype="Node" CircId="Node-549" mainComp="false" Pos="-1080,280" />
+
+<item itemtype="Node" CircId="Node-550" mainComp="false" Pos="-1224,304" />
+
+<item itemtype="Node" CircId="Node-551" mainComp="false" Pos="-1104,304" />
+
+<item itemtype="Node" CircId="Node-554" mainComp="false" Pos="-1208,180" />
+
+<item itemtype="Node" CircId="Node-682" mainComp="false" Pos="-1320,620" />
+
+<item itemtype="Node" CircId="Node-683" mainComp="false" Pos="-1368,628" />
+
+<item itemtype="Node" CircId="Node-710" mainComp="false" Pos="-1320,512" />
+
+<item itemtype="Node" CircId="Node-711" mainComp="false" Pos="-1320,584" />
+
+<item itemtype="Node" CircId="Node-712" mainComp="false" Pos="-1368,520" />
+
+<item itemtype="Node" CircId="Node-713" mainComp="false" Pos="-1368,592" />
+
+<item itemtype="Node" CircId="Node-714" mainComp="false" Pos="-1416,552" />
+
+<item itemtype="Node" CircId="Node-715" mainComp="false" Pos="-1416,600" />
+
+<item itemtype="Node" CircId="Node-731" mainComp="false" Pos="-984,628" />
+
+<item itemtype="Node" CircId="Node-733" mainComp="false" Pos="-936,620" />
+
+<item itemtype="Node" CircId="Node-739" mainComp="false" Pos="-1032,552" />
+
+<item itemtype="Node" CircId="Node-740" mainComp="false" Pos="-1032,600" />
+
+<item itemtype="Node" CircId="Node-741" mainComp="false" Pos="-984,520" />
+
+<item itemtype="Node" CircId="Node-742" mainComp="false" Pos="-984,592" />
+
+<item itemtype="Node" CircId="Node-743" mainComp="false" Pos="-936,512" />
+
+<item itemtype="Node" CircId="Node-744" mainComp="false" Pos="-936,584" />
+
+<item itemtype="Node" CircId="Node-747" mainComp="false" Pos="-1040,616" />
+
+<item itemtype="Node" CircId="Node-755" mainComp="false" Pos="-168,620" />
+
+<item itemtype="Node" CircId="Node-761" mainComp="false" Pos="-552,620" />
+
+<item itemtype="Node" CircId="Node-762" mainComp="false" Pos="-216,628" />
+
+<item itemtype="Node" CircId="Node-764" mainComp="false" Pos="-600,628" />
+
+<item itemtype="Node" CircId="Node-771" mainComp="false" Pos="-648,552" />
+
+<item itemtype="Node" CircId="Node-772" mainComp="false" Pos="-648,600" />
+
+<item itemtype="Node" CircId="Node-773" mainComp="false" Pos="-600,520" />
+
+<item itemtype="Node" CircId="Node-774" mainComp="false" Pos="-600,592" />
+
+<item itemtype="Node" CircId="Node-775" mainComp="false" Pos="-552,512" />
+
+<item itemtype="Node" CircId="Node-776" mainComp="false" Pos="-552,584" />
+
+<item itemtype="Node" CircId="Node-777" mainComp="false" Pos="-656,616" />
+
+<item itemtype="Node" CircId="Node-778" mainComp="false" Pos="-272,612" />
+
+<item itemtype="Node" CircId="Node-779" mainComp="false" Pos="-264,552" />
+
+<item itemtype="Node" CircId="Node-780" mainComp="false" Pos="-264,600" />
+
+<item itemtype="Node" CircId="Node-781" mainComp="false" Pos="-216,520" />
+
+<item itemtype="Node" CircId="Node-782" mainComp="false" Pos="-216,592" />
+
+<item itemtype="Node" CircId="Node-783" mainComp="false" Pos="-168,512" />
+
+<item itemtype="Node" CircId="Node-784" mainComp="false" Pos="-168,584" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="Xor Gate-10-out" endpinid="Xor Gate-15-in1" pointList="72,-820,136,-820,136,-836" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Xor Gate-14-out" endpinid="Xor Gate-15-in0" pointList="72,-860,136,-860,136,-844" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="Xor Gate-15-out" endpinid="Led-26-lPin" pointList="168,-840,192,-840" />
+
+<item itemtype="Connector" uid="Connector-105" startpinid="And Gate-13-out" endpinid="Or Gate-12-in0" pointList="72,-788,136,-788" />
+
+<item itemtype="Connector" uid="Connector-113" startpinid="Or Gate-12-out" endpinid="Led-56-lPin" pointList="168,-768,192,-768" />
+
+<item itemtype="Connector" uid="Connector-118" startpinid="Resistor-60-rPin" endpinid="Ground-57-Gnd" pointList="272,-768,288,-768" />
+
+<item itemtype="Connector" uid="Connector-119" startpinid="Resistor-60-lPin" endpinid="Led-56-rPin" pointList="240,-768,224,-768" />
+
+<item itemtype="Connector" uid="Connector-120" startpinid="Resistor-58-lPin" endpinid="Led-26-rPin" pointList="240,-840,224,-840" />
+
+<item itemtype="Connector" uid="Connector-121" startpinid="Resistor-58-rPin" endpinid="Ground-27-Gnd" pointList="272,-840,288,-840" />
+
+<item itemtype="Connector" uid="Connector-122" startpinid="Fixed Voltage-77-outnod" endpinid="Node-71-0" pointList="-1364,-680,-1356,-680" />
+
+<item itemtype="Connector" uid="Connector-123" startpinid="Node-92-2" endpinid="SwitchDip-61-switch1-pinP" pointList="-1224,-680,-1224,-652" />
+
+<item itemtype="Connector" uid="Connector-124" startpinid="Node-82-1" endpinid="Node-92-0" pointList="-1232,-680,-1224,-680" />
+
+<item itemtype="Connector" uid="Connector-125" startpinid="Node-91-1" endpinid="7-Seg BCD-95-in3" pointList="-1240,-556,-1296,-556,-1296,-584" />
+
+<item itemtype="Connector" uid="Connector-126" startpinid="Tunnel-78-pin" endpinid="7-Seg BCD-80-in3" pointList="-1004,-552,-1004,-584" />
+
+<item itemtype="Connector" uid="Connector-127" startpinid="Tunnel-93-pin" endpinid="7-Seg BCD-80-in2" pointList="-996,-552,-996,-584" />
+
+<item itemtype="Connector" uid="Connector-128" startpinid="Node-62-2" endpinid="SwitchDip-66-switch2-pinN" pointList="-1348,-564,-1348,-628" />
+
+<item itemtype="Connector" uid="Connector-129" startpinid="Node-73-1" endpinid="SwitchDip-66-switch0-pinP" pointList="-1340,-680,-1332,-680,-1332,-652" />
+
+<item itemtype="Connector" uid="Connector-130" startpinid="Tunnel-70-pin" endpinid="Node-65-0" pointList="-1232,-540,-1232,-564" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="Tunnel-94-pin" endpinid="Node-64-0" pointList="-1216,-540,-1216,-580" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="Node-64-1" endpinid="7-Seg BCD-95-in0" pointList="-1216,-580,-1272,-580,-1272,-584" />
+
+<item itemtype="Connector" uid="Connector-133" startpinid="Node-71-1" endpinid="Node-84-0" pointList="-1356,-680,-1348,-680" />
+
+<item itemtype="Connector" uid="Connector-134" startpinid="Node-83-1" endpinid="7-Seg BCD-95-in1" pointList="-1224,-572,-1280,-572,-1280,-584" />
+
+<item itemtype="Connector" uid="Connector-135" startpinid="SwitchDip-61-switch1-pinN" endpinid="Node-83-0" pointList="-1224,-628,-1224,-572" />
+
+<item itemtype="Connector" uid="Connector-136" startpinid="SwitchDip-66-switch1-pinN" endpinid="Node-76-0" pointList="-1340,-628,-1340,-572" />
+
+<item itemtype="Connector" uid="Connector-137" startpinid="Tunnel-67-pin" endpinid="Node-62-0" pointList="-1348,-540,-1348,-564" />
+
+<item itemtype="Connector" uid="Connector-138" startpinid="Node-73-2" endpinid="SwitchDip-66-switch1-pinP" pointList="-1340,-680,-1340,-652" />
+
+<item itemtype="Connector" uid="Connector-139" startpinid="Node-65-2" endpinid="SwitchDip-61-switch2-pinN" pointList="-1232,-564,-1232,-628" />
+
+<item itemtype="Connector" uid="Connector-140" startpinid="Node-62-1" endpinid="7-Seg BCD-81-in2" pointList="-1348,-564,-1404,-564,-1404,-584" />
+
+<item itemtype="Connector" uid="Connector-141" startpinid="Fixed Voltage-63-outnod" endpinid="Node-69-0" pointList="-1248,-680,-1240,-680" />
+
+<item itemtype="Connector" uid="Connector-142" startpinid="Tunnel-75-pin" endpinid="7-Seg BCD-80-in1" pointList="-988,-552,-988,-584" />
+
+<item itemtype="Connector" uid="Connector-143" startpinid="Node-72-1" endpinid="7-Seg BCD-81-in3" pointList="-1356,-556,-1412,-556,-1412,-584" />
+
+<item itemtype="Connector" uid="Connector-144" startpinid="Node-71-2" endpinid="SwitchDip-66-switch3-pinP" pointList="-1356,-680,-1356,-652" />
+
+<item itemtype="Connector" uid="Connector-145" startpinid="SwitchDip-61-switch3-pinN" endpinid="Node-91-0" pointList="-1240,-628,-1240,-556" />
+
+<item itemtype="Connector" uid="Connector-146" startpinid="Tunnel-87-pin" endpinid="7-Seg BCD-89-in0" pointList="-1020,-552,-1020,-584" />
+
+<item itemtype="Connector" uid="Connector-147" startpinid="Node-83-2" endpinid="Tunnel-79-pin" pointList="-1224,-572,-1224,-540" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="Node-72-2" endpinid="Tunnel-86-pin" pointList="-1356,-556,-1356,-540" />
+
+<item itemtype="Connector" uid="Connector-149" startpinid="Node-82-2" endpinid="SwitchDip-61-switch2-pinP" pointList="-1232,-680,-1232,-652" />
+
+<item itemtype="Connector" uid="Connector-150" startpinid="Tunnel-90-pin" endpinid="Node-74-0" pointList="-1332,-540,-1332,-580" />
+
+<item itemtype="Connector" uid="Connector-151" startpinid="Node-65-1" endpinid="7-Seg BCD-95-in2" pointList="-1232,-564,-1288,-564,-1288,-584" />
+
+<item itemtype="Connector" uid="Connector-152" startpinid="Node-84-1" endpinid="Node-73-0" pointList="-1348,-680,-1340,-680" />
+
+<item itemtype="Connector" uid="Connector-153" startpinid="Node-92-1" endpinid="SwitchDip-61-switch0-pinP" pointList="-1224,-680,-1216,-680,-1216,-652" />
+
+<item itemtype="Connector" uid="Connector-154" startpinid="Node-74-1" endpinid="7-Seg BCD-81-in0" pointList="-1332,-580,-1388,-580,-1388,-584" />
+
+<item itemtype="Connector" uid="Connector-155" startpinid="Node-76-1" endpinid="7-Seg BCD-81-in1" pointList="-1340,-572,-1396,-572,-1396,-584" />
+
+<item itemtype="Connector" uid="Connector-156" startpinid="Node-64-2" endpinid="SwitchDip-61-switch0-pinN" pointList="-1216,-580,-1216,-628" />
+
+<item itemtype="Connector" uid="Connector-157" startpinid="Node-74-2" endpinid="SwitchDip-66-switch0-pinN" pointList="-1332,-580,-1332,-628" />
+
+<item itemtype="Connector" uid="Connector-158" startpinid="Tunnel-68-pin" endpinid="7-Seg BCD-80-in0" pointList="-980,-552,-980,-584" />
+
+<item itemtype="Connector" uid="Connector-159" startpinid="Node-91-2" endpinid="Tunnel-88-pin" pointList="-1240,-556,-1240,-540" />
+
+<item itemtype="Connector" uid="Connector-160" startpinid="Node-84-2" endpinid="SwitchDip-66-switch2-pinP" pointList="-1348,-680,-1348,-652" />
+
+<item itemtype="Connector" uid="Connector-161" startpinid="Node-76-2" endpinid="Tunnel-85-pin" pointList="-1340,-572,-1340,-540" />
+
+<item itemtype="Connector" uid="Connector-162" startpinid="Node-69-1" endpinid="Node-82-0" pointList="-1240,-680,-1232,-680" />
+
+<item itemtype="Connector" uid="Connector-163" startpinid="Node-69-2" endpinid="SwitchDip-61-switch3-pinP" pointList="-1240,-680,-1240,-652" />
+
+<item itemtype="Connector" uid="Connector-164" startpinid="SwitchDip-66-switch3-pinN" endpinid="Node-72-0" pointList="-1356,-628,-1356,-556" />
+
+<item itemtype="Connector" uid="Connector-165" startpinid="Node-96-1" endpinid="7-Seg BCD-105-in3" pointList="-1120,-556,-1176,-556,-1176,-584" />
+
+<item itemtype="Connector" uid="Connector-166" startpinid="Node-101-1" endpinid="Node-108-0" pointList="-1120,-680,-1112,-680" />
+
+<item itemtype="Connector" uid="Connector-167" startpinid="Node-102-1" endpinid="7-Seg BCD-105-in0" pointList="-1096,-580,-1152,-580,-1152,-584" />
+
+<item itemtype="Connector" uid="Connector-168" startpinid="SwitchDip-104-switch1-pinN" endpinid="Node-97-0" pointList="-1104,-628,-1104,-572" />
+
+<item itemtype="Connector" uid="Connector-169" startpinid="Tunnel-103-pin" endpinid="Node-100-0" pointList="-1112,-540,-1112,-564" />
+
+<item itemtype="Connector" uid="Connector-170" startpinid="Node-100-2" endpinid="SwitchDip-104-switch2-pinN" pointList="-1112,-564,-1112,-628" />
+
+<item itemtype="Connector" uid="Connector-171" startpinid="Node-101-2" endpinid="SwitchDip-104-switch3-pinP" pointList="-1120,-680,-1120,-652" />
+
+<item itemtype="Connector" uid="Connector-172" startpinid="Node-108-2" endpinid="SwitchDip-104-switch2-pinP" pointList="-1112,-680,-1112,-652" />
+
+<item itemtype="Connector" uid="Connector-173" startpinid="Node-97-1" endpinid="7-Seg BCD-105-in1" pointList="-1104,-572,-1160,-572,-1160,-584" />
+
+<item itemtype="Connector" uid="Connector-174" startpinid="Node-100-1" endpinid="7-Seg BCD-105-in2" pointList="-1112,-564,-1168,-564,-1168,-584" />
+
+<item itemtype="Connector" uid="Connector-175" startpinid="Node-109-1" endpinid="SwitchDip-104-switch0-pinP" pointList="-1104,-680,-1096,-680,-1096,-652" />
+
+<item itemtype="Connector" uid="Connector-176" startpinid="Fixed Voltage-99-outnod" endpinid="Node-101-0" pointList="-1128,-680,-1120,-680" />
+
+<item itemtype="Connector" uid="Connector-177" startpinid="Node-109-2" endpinid="SwitchDip-104-switch1-pinP" pointList="-1104,-680,-1104,-652" />
+
+<item itemtype="Connector" uid="Connector-178" startpinid="Node-102-2" endpinid="SwitchDip-104-switch0-pinN" pointList="-1096,-580,-1096,-628" />
+
+<item itemtype="Connector" uid="Connector-179" startpinid="Node-108-1" endpinid="Node-109-0" pointList="-1112,-680,-1104,-680" />
+
+<item itemtype="Connector" uid="Connector-180" startpinid="Node-96-2" endpinid="Tunnel-106-pin" pointList="-1120,-556,-1120,-540" />
+
+<item itemtype="Connector" uid="Connector-181" startpinid="SwitchDip-104-switch3-pinN" endpinid="Node-96-0" pointList="-1120,-628,-1120,-556" />
+
+<item itemtype="Connector" uid="Connector-182" startpinid="Node-97-2" endpinid="Tunnel-107-pin" pointList="-1104,-572,-1104,-540" />
+
+<item itemtype="Connector" uid="Connector-183" startpinid="Tunnel-98-pin" endpinid="Node-102-0" pointList="-1096,-540,-1096,-580" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Node-8-2" endpinid="Switch-4-pinP0" pointList="-88,-944,-88,-928" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Node-7-1" endpinid="Node-8-0" pointList="-136,-944,-88,-944" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Node-8-1" endpinid="Switch-5-pinP0" pointList="-88,-944,-40,-944,-40,-928" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Node-7-2" endpinid="Switch-3-pinP0" pointList="-136,-944,-136,-928" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Node-6-1" endpinid="Node-7-0" pointList="-184,-944,-136,-944" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Node-6-2" endpinid="Switch-2-pinP0" pointList="-184,-944,-184,-928" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Fixed Voltage-1-outnod" endpinid="Node-6-0" pointList="-200,-944,-184,-944" />
+
+<item itemtype="Connector" uid="Connector-217" startpinid="Xor Gate-125-out" endpinid="Xor Gate-138-in1" pointList="-1268,-292,-1204,-292,-1204,-308" />
+
+<item itemtype="Connector" uid="Connector-249" startpinid="Xor Gate-131-out" endpinid="Xor Gate-138-in0" pointList="-1268,-332,-1204,-332,-1204,-316" />
+
+<item itemtype="Connector" uid="Connector-275" startpinid="Tunnel-165-pin" endpinid="Xor Gate-138-out" pointList="-1172,-356,-1172,-312" />
+
+<item itemtype="Connector" uid="Connector-278" startpinid="Xor Gate-170-out" endpinid="Xor Gate-176-in1" pointList="-884,-292,-820,-292,-820,-308" />
+
+<item itemtype="Connector" uid="Connector-280" startpinid="Xor Gate-185-out" endpinid="Xor Gate-176-in0" pointList="-884,-332,-820,-332,-820,-316" />
+
+<item itemtype="Connector" uid="Connector-314" startpinid="Tunnel-174-pin" endpinid="Xor Gate-176-out" pointList="-788,-356,-788,-312" />
+
+<item itemtype="Connector" uid="Connector-337" startpinid="Tunnel-272-pin" endpinid="Xor Gate-258-out" pointList="-20,-356,-20,-312" />
+
+<item itemtype="Connector" uid="Connector-342" startpinid="Xor Gate-236-out" endpinid="Xor Gate-258-in0" pointList="-116,-332,-52,-332,-52,-316" />
+
+<item itemtype="Connector" uid="Connector-348" startpinid="Xor Gate-234-out" endpinid="Xor Gate-258-in1" pointList="-116,-292,-52,-292,-52,-308" />
+
+<item itemtype="Connector" uid="Connector-351" startpinid="Tunnel-260-pin" endpinid="Xor Gate-268-out" pointList="-404,-356,-404,-312" />
+
+<item itemtype="Connector" uid="Connector-361" startpinid="Xor Gate-243-out" endpinid="Xor Gate-268-in1" pointList="-500,-292,-436,-292,-436,-308" />
+
+<item itemtype="Connector" uid="Connector-403" startpinid="Xor Gate-246-out" endpinid="Xor Gate-268-in0" pointList="-500,-332,-436,-332,-436,-316" />
+
+<item itemtype="Connector" uid="Connector-509" startpinid="Switch-2-switch0pinN" endpinid="Node-292-0" pointList="-184,-896,-184,-816" />
+
+<item itemtype="Connector" uid="Connector-510" startpinid="Node-292-2" endpinid="Xor Gate-10-in1" pointList="-184,-816,40,-816" />
+
+<item itemtype="Connector" uid="Connector-512" startpinid="Switch-3-switch0pinN" endpinid="Node-293-0" pointList="-136,-896,-136,-824" />
+
+<item itemtype="Connector" uid="Connector-513" startpinid="Node-293-2" endpinid="Xor Gate-10-in0" pointList="-136,-824,40,-824" />
+
+<item itemtype="Connector" uid="Connector-515" startpinid="Node-292-1" endpinid="Node-299-0" pointList="-184,-816,-184,-784" />
+
+<item itemtype="Connector" uid="Connector-516" startpinid="Node-299-2" endpinid="And Gate-13-in1" pointList="-184,-784,40,-784" />
+
+<item itemtype="Connector" uid="Connector-526" startpinid="Switch-4-switch0pinN" endpinid="Node-302-0" pointList="-88,-896,-88,-856" />
+
+<item itemtype="Connector" uid="Connector-527" startpinid="Node-302-2" endpinid="Xor Gate-14-in1" pointList="-88,-856,40,-856" />
+
+<item itemtype="Connector" uid="Connector-529" startpinid="Node-299-1" endpinid="Node-303-0" pointList="-184,-784,-184,-760" />
+
+<item itemtype="Connector" uid="Connector-530" startpinid="Node-303-2" endpinid="And Gate-294-in1" pointList="-184,-760,40,-760" />
+
+<item itemtype="Connector" uid="Connector-532" startpinid="Switch-5-switch0pinN" endpinid="Node-304-0" pointList="-40,-896,-40,-864" />
+
+<item itemtype="Connector" uid="Connector-533" startpinid="Node-304-2" endpinid="Xor Gate-14-in0" pointList="-40,-864,40,-864" />
+
+<item itemtype="Connector" uid="Connector-528" startpinid="Node-303-1" endpinid="And Gate-295-in1" pointList="-184,-760,-184,-736,40,-736" />
+
+<item itemtype="Connector" uid="Connector-538" startpinid="Node-293-1" endpinid="Node-306-0" pointList="-136,-824,-136,-792" />
+
+<item itemtype="Connector" uid="Connector-539" startpinid="Node-306-2" endpinid="And Gate-13-in0" pointList="-136,-792,40,-792" />
+
+<item itemtype="Connector" uid="Connector-548" startpinid="Node-302-1" endpinid="Node-309-0" pointList="-88,-856,-88,-768" />
+
+<item itemtype="Connector" uid="Connector-549" startpinid="Node-309-2" endpinid="And Gate-294-in0" pointList="-88,-768,40,-768" />
+
+<item itemtype="Connector" uid="Connector-550" startpinid="Node-310-1" endpinid="And Gate-297-in1" pointList="-136,-712,-136,-688,40,-688" />
+
+<item itemtype="Connector" uid="Connector-551" startpinid="Node-306-1" endpinid="Node-310-0" pointList="-136,-792,-136,-712" />
+
+<item itemtype="Connector" uid="Connector-552" startpinid="Node-310-2" endpinid="And Gate-296-in1" pointList="-136,-712,40,-712" />
+
+<item itemtype="Connector" uid="Connector-554" startpinid="Node-304-1" endpinid="Node-311-0" pointList="-40,-864,-40,-744" />
+
+<item itemtype="Connector" uid="Connector-555" startpinid="Node-311-2" endpinid="And Gate-295-in0" pointList="-40,-744,40,-744" />
+
+<item itemtype="Connector" uid="Connector-556" startpinid="Node-312-1" endpinid="And Gate-298-in1" pointList="-88,-720,-88,-664,40,-664" />
+
+<item itemtype="Connector" uid="Connector-557" startpinid="Node-309-1" endpinid="Node-312-0" pointList="-88,-768,-88,-720" />
+
+<item itemtype="Connector" uid="Connector-558" startpinid="Node-312-2" endpinid="And Gate-296-in0" pointList="-88,-720,40,-720" />
+
+<item itemtype="Connector" uid="Connector-559" startpinid="Node-313-1" endpinid="And Gate-298-in0" pointList="-40,-696,-40,-672,40,-672" />
+
+<item itemtype="Connector" uid="Connector-560" startpinid="Node-311-1" endpinid="Node-313-0" pointList="-40,-744,-40,-696" />
+
+<item itemtype="Connector" uid="Connector-561" startpinid="Node-313-2" endpinid="And Gate-297-in0" pointList="-40,-696,40,-696" />
+
+<item itemtype="Connector" uid="Connector-562" startpinid="And Gate-294-out" endpinid="Or Gate-12-in1" pointList="72,-764,76,-764,76,-780,136,-780" />
+
+<item itemtype="Connector" uid="Connector-563" startpinid="And Gate-295-out" endpinid="Or Gate-12-in2" pointList="72,-740,84,-740,84,-772,136,-772" />
+
+<item itemtype="Connector" uid="Connector-564" startpinid="And Gate-296-out" endpinid="Or Gate-12-in3" pointList="72,-716,92,-716,92,-764,136,-764" />
+
+<item itemtype="Connector" uid="Connector-565" startpinid="And Gate-297-out" endpinid="Or Gate-12-in4" pointList="72,-692,100,-692,100,-756,136,-756" />
+
+<item itemtype="Connector" uid="Connector-566" startpinid="And Gate-298-out" endpinid="Or Gate-12-in5" pointList="72,-668,108,-668,108,-748,136,-748" />
+
+<item itemtype="Connector" uid="Connector-640" startpinid="And Gate-315-out" endpinid="Or Gate-328-in3" pointList="-1268,-188,-1248,-188,-1248,-236,-1204,-236" />
+
+<item itemtype="Connector" uid="Connector-641" startpinid="Node-317-2" endpinid="And Gate-315-in0" pointList="-1428,-192,-1300,-192" />
+
+<item itemtype="Connector" uid="Connector-642" startpinid="Node-314-1" endpinid="And Gate-319-in0" pointList="-1380,-168,-1380,-144,-1300,-144" />
+
+<item itemtype="Connector" uid="Connector-643" startpinid="And Gate-316-out" endpinid="Or Gate-328-in0" pointList="-1268,-260,-1204,-260" />
+
+<item itemtype="Connector" uid="Connector-644" startpinid="Node-322-2" endpinid="And Gate-315-in1" pointList="-1476,-184,-1300,-184" />
+
+<item itemtype="Connector" uid="Connector-645" startpinid="Node-318-1" endpinid="And Gate-325-in1" pointList="-1524,-232,-1524,-208,-1300,-208" />
+
+<item itemtype="Connector" uid="Connector-646" startpinid="And Gate-319-out" endpinid="Or Gate-328-in5" pointList="-1268,-140,-1232,-140,-1232,-220,-1204,-220" />
+
+<item itemtype="Connector" uid="Connector-647" startpinid="Node-314-2" endpinid="And Gate-327-in0" pointList="-1380,-168,-1300,-168" />
+
+<item itemtype="Connector" uid="Connector-648" startpinid="Node-322-1" endpinid="And Gate-327-in1" pointList="-1476,-184,-1476,-160,-1300,-160" />
+
+<item itemtype="Connector" uid="Connector-650" startpinid="And Gate-324-out" endpinid="Or Gate-328-in1" pointList="-1268,-236,-1264,-236,-1264,-252,-1204,-252" />
+
+<item itemtype="Connector" uid="Connector-655" startpinid="Node-318-2" endpinid="And Gate-324-in1" pointList="-1524,-232,-1300,-232" />
+
+<item itemtype="Connector" uid="Connector-656" startpinid="Node-317-1" endpinid="And Gate-319-in1" pointList="-1428,-192,-1428,-136,-1300,-136" />
+
+<item itemtype="Connector" uid="Connector-658" startpinid="And Gate-325-out" endpinid="Or Gate-328-in2" pointList="-1268,-212,-1256,-212,-1256,-244,-1204,-244" />
+
+<item itemtype="Connector" uid="Connector-663" startpinid="And Gate-327-out" endpinid="Or Gate-328-in4" pointList="-1268,-164,-1240,-164,-1240,-228,-1204,-228" />
+
+<item itemtype="Connector" uid="Connector-672" startpinid="Node-314-0" endpinid="Node-330-0" pointList="-1380,-168,-1380,-216" />
+
+<item itemtype="Connector" uid="Connector-673" startpinid="Node-330-2" endpinid="And Gate-325-in0" pointList="-1380,-216,-1300,-216" />
+
+<item itemtype="Connector" uid="Connector-677" startpinid="Node-317-0" endpinid="Node-332-0" pointList="-1428,-192,-1428,-240" />
+
+<item itemtype="Connector" uid="Connector-678" startpinid="Node-332-2" endpinid="And Gate-324-in0" pointList="-1428,-240,-1300,-240" />
+
+<item itemtype="Connector" uid="Connector-679" startpinid="Node-333-1" endpinid="Node-334-1" pointList="-1476,-296,-1476,-264" />
+
+<item itemtype="Connector" uid="Connector-680" startpinid="Tunnel-161-pin" endpinid="Node-333-0" pointList="-1476,-356,-1476,-296" />
+
+<item itemtype="Connector" uid="Connector-681" startpinid="Node-333-2" endpinid="Xor Gate-125-in0" pointList="-1476,-296,-1300,-296" />
+
+<item itemtype="Connector" uid="Connector-682" startpinid="Node-322-0" endpinid="Node-334-0" pointList="-1476,-184,-1476,-264" />
+
+<item itemtype="Connector" uid="Connector-683" startpinid="Node-334-2" endpinid="And Gate-316-in0" pointList="-1476,-264,-1300,-264" />
+
+<item itemtype="Connector" uid="Connector-684" startpinid="Node-335-1" endpinid="Xor Gate-125-in1" pointList="-1524,-256,-1524,-288,-1300,-288" />
+
+<item itemtype="Connector" uid="Connector-685" startpinid="Node-318-0" endpinid="Node-335-0" pointList="-1524,-232,-1524,-256" />
+
+<item itemtype="Connector" uid="Connector-686" startpinid="Node-335-2" endpinid="And Gate-316-in1" pointList="-1524,-256,-1300,-256" />
+
+<item itemtype="Connector" uid="Connector-705" startpinid="Node-345-2" endpinid="And Gate-346-in0" pointList="-1044,-192,-916,-192" />
+
+<item itemtype="Connector" uid="Connector-706" startpinid="And Gate-346-out" endpinid="Or Gate-337-in3" pointList="-884,-188,-864,-188,-864,-236,-820,-236" />
+
+<item itemtype="Connector" uid="Connector-707" startpinid="Node-344-2" endpinid="And Gate-338-in1" pointList="-1140,-232,-916,-232" />
+
+<item itemtype="Connector" uid="Connector-708" startpinid="And Gate-342-out" endpinid="Or Gate-337-in4" pointList="-884,-164,-856,-164,-856,-228,-820,-228" />
+
+<item itemtype="Connector" uid="Connector-709" startpinid="Node-345-1" endpinid="And Gate-348-in1" pointList="-1044,-192,-1044,-136,-916,-136" />
+
+<item itemtype="Connector" uid="Connector-711" startpinid="Node-347-1" endpinid="And Gate-342-in1" pointList="-1092,-184,-1092,-160,-916,-160" />
+
+<item itemtype="Connector" uid="Connector-713" startpinid="Node-343-1" endpinid="And Gate-348-in0" pointList="-996,-168,-996,-144,-916,-144" />
+
+<item itemtype="Connector" uid="Connector-714" startpinid="And Gate-338-out" endpinid="Or Gate-337-in1" pointList="-884,-236,-880,-236,-880,-252,-820,-252" />
+
+<item itemtype="Connector" uid="Connector-718" startpinid="And Gate-348-out" endpinid="Or Gate-337-in5" pointList="-884,-140,-848,-140,-848,-220,-820,-220" />
+
+<item itemtype="Connector" uid="Connector-719" startpinid="And Gate-341-out" endpinid="Or Gate-337-in0" pointList="-884,-260,-820,-260" />
+
+<item itemtype="Connector" uid="Connector-720" startpinid="And Gate-339-out" endpinid="Or Gate-337-in2" pointList="-884,-212,-872,-212,-872,-244,-820,-244" />
+
+<item itemtype="Connector" uid="Connector-728" startpinid="Node-347-2" endpinid="And Gate-346-in1" pointList="-1092,-184,-916,-184" />
+
+<item itemtype="Connector" uid="Connector-729" startpinid="Node-343-2" endpinid="And Gate-342-in0" pointList="-996,-168,-916,-168" />
+
+<item itemtype="Connector" uid="Connector-735" startpinid="Or Gate-328-out" endpinid="Node-351-1" pointList="-1172,-240,-1160,-240,-1160,-208,-1140,-208" />
+
+<item itemtype="Connector" uid="Connector-736" startpinid="Node-344-1" endpinid="Node-351-0" pointList="-1140,-232,-1140,-208" />
+
+<item itemtype="Connector" uid="Connector-737" startpinid="Node-351-2" endpinid="And Gate-339-in1" pointList="-1140,-208,-916,-208" />
+
+<item itemtype="Connector" uid="Connector-742" startpinid="Node-353-1" endpinid="Node-354-1" pointList="-1092,-296,-1092,-264" />
+
+<item itemtype="Connector" uid="Connector-743" startpinid="Tunnel-186-pin" endpinid="Node-353-0" pointList="-1092,-356,-1092,-296" />
+
+<item itemtype="Connector" uid="Connector-744" startpinid="Node-353-2" endpinid="Xor Gate-170-in0" pointList="-1092,-296,-916,-296" />
+
+<item itemtype="Connector" uid="Connector-745" startpinid="Node-347-0" endpinid="Node-354-0" pointList="-1092,-184,-1092,-264" />
+
+<item itemtype="Connector" uid="Connector-746" startpinid="Node-354-2" endpinid="And Gate-341-in0" pointList="-1092,-264,-916,-264" />
+
+<item itemtype="Connector" uid="Connector-747" startpinid="Node-355-1" endpinid="Xor Gate-170-in1" pointList="-1140,-256,-1140,-288,-916,-288" />
+
+<item itemtype="Connector" uid="Connector-748" startpinid="Node-344-0" endpinid="Node-355-0" pointList="-1140,-232,-1140,-256" />
+
+<item itemtype="Connector" uid="Connector-749" startpinid="Node-355-2" endpinid="And Gate-341-in1" pointList="-1140,-256,-916,-256" />
+
+<item itemtype="Connector" uid="Connector-786" startpinid="Node-356-2" endpinid="And Gate-374-in1" pointList="-372,-208,-148,-208" />
+
+<item itemtype="Connector" uid="Connector-787" startpinid="And Gate-366-out" endpinid="Or Gate-371-in1" pointList="-116,-236,-112,-236,-112,-252,-52,-252" />
+
+<item itemtype="Connector" uid="Connector-788" startpinid="And Gate-357-out" endpinid="Or Gate-368-in5" pointList="-500,-140,-464,-140,-464,-220,-436,-220" />
+
+<item itemtype="Connector" uid="Connector-789" startpinid="And Gate-364-out" endpinid="Or Gate-371-in5" pointList="-116,-140,-80,-140,-80,-220,-52,-220" />
+
+<item itemtype="Connector" uid="Connector-790" startpinid="And Gate-362-out" endpinid="Or Gate-368-in1" pointList="-500,-236,-496,-236,-496,-252,-436,-252" />
+
+<item itemtype="Connector" uid="Connector-792" startpinid="And Gate-372-out" endpinid="Or Gate-368-in4" pointList="-500,-164,-472,-164,-472,-228,-436,-228" />
+
+<item itemtype="Connector" uid="Connector-794" startpinid="And Gate-361-out" endpinid="Or Gate-368-in3" pointList="-500,-188,-480,-188,-480,-236,-436,-236" />
+
+<item itemtype="Connector" uid="Connector-795" startpinid="Node-377-1" endpinid="Node-356-0" pointList="-372,-232,-372,-208" />
+
+<item itemtype="Connector" uid="Connector-796" startpinid="Node-370-2" endpinid="And Gate-362-in1" pointList="-756,-232,-532,-232" />
+
+<item itemtype="Connector" uid="Connector-798" startpinid="Or Gate-368-out" endpinid="Node-356-1" pointList="-404,-240,-392,-240,-392,-208,-372,-208" />
+
+<item itemtype="Connector" uid="Connector-799" startpinid="And Gate-374-out" endpinid="Or Gate-371-in2" pointList="-116,-212,-104,-212,-104,-244,-52,-244" />
+
+<item itemtype="Connector" uid="Connector-800" startpinid="Node-373-2" endpinid="And Gate-383-in0" pointList="-228,-168,-148,-168" />
+
+<item itemtype="Connector" uid="Connector-801" startpinid="Node-377-2" endpinid="And Gate-366-in1" pointList="-372,-232,-148,-232" />
+
+<item itemtype="Connector" uid="Connector-806" startpinid="And Gate-360-out" endpinid="Or Gate-368-in2" pointList="-500,-212,-488,-212,-488,-244,-436,-244" />
+
+<item itemtype="Connector" uid="Connector-809" startpinid="And Gate-378-out" endpinid="Or Gate-371-in3" pointList="-116,-188,-96,-188,-96,-236,-52,-236" />
+
+<item itemtype="Connector" uid="Connector-810" startpinid="Node-379-2" endpinid="And Gate-361-in1" pointList="-708,-184,-532,-184" />
+
+<item itemtype="Connector" uid="Connector-811" startpinid="Node-358-2" endpinid="And Gate-361-in0" pointList="-660,-192,-532,-192" />
+
+<item itemtype="Connector" uid="Connector-812" startpinid="Node-379-1" endpinid="And Gate-372-in1" pointList="-708,-184,-708,-160,-532,-160" />
+
+<item itemtype="Connector" uid="Connector-813" startpinid="Node-373-1" endpinid="And Gate-364-in0" pointList="-228,-168,-228,-144,-148,-144" />
+
+<item itemtype="Connector" uid="Connector-815" startpinid="Node-365-2" endpinid="And Gate-372-in0" pointList="-612,-168,-532,-168" />
+
+<item itemtype="Connector" uid="Connector-816" startpinid="And Gate-383-out" endpinid="Or Gate-371-in4" pointList="-116,-164,-88,-164,-88,-228,-52,-228" />
+
+<item itemtype="Connector" uid="Connector-821" startpinid="Node-365-1" endpinid="And Gate-357-in0" pointList="-612,-168,-612,-144,-532,-144" />
+
+<item itemtype="Connector" uid="Connector-822" startpinid="Node-376-1" endpinid="And Gate-383-in1" pointList="-324,-184,-324,-160,-148,-160" />
+
+<item itemtype="Connector" uid="Connector-824" startpinid="Node-380-1" endpinid="And Gate-364-in1" pointList="-276,-192,-276,-136,-148,-136" />
+
+<item itemtype="Connector" uid="Connector-826" startpinid="Node-358-1" endpinid="And Gate-357-in1" pointList="-660,-192,-660,-136,-532,-136" />
+
+<item itemtype="Connector" uid="Connector-827" startpinid="And Gate-382-out" endpinid="Or Gate-368-in0" pointList="-500,-260,-436,-260" />
+
+<item itemtype="Connector" uid="Connector-828" startpinid="Node-380-2" endpinid="And Gate-378-in0" pointList="-276,-192,-148,-192" />
+
+<item itemtype="Connector" uid="Connector-831" startpinid="Node-376-2" endpinid="And Gate-378-in1" pointList="-324,-184,-148,-184" />
+
+<item itemtype="Connector" uid="Connector-833" startpinid="And Gate-359-out" endpinid="Or Gate-371-in0" pointList="-116,-260,-52,-260" />
+
+<item itemtype="Connector" uid="Connector-841" startpinid="Node-385-1" endpinid="Node-386-1" pointList="-708,-296,-708,-264" />
+
+<item itemtype="Connector" uid="Connector-842" startpinid="Tunnel-233-pin" endpinid="Node-385-0" pointList="-708,-356,-708,-296" />
+
+<item itemtype="Connector" uid="Connector-843" startpinid="Node-385-2" endpinid="Xor Gate-243-in0" pointList="-708,-296,-532,-296" />
+
+<item itemtype="Connector" uid="Connector-844" startpinid="Node-379-0" endpinid="Node-386-0" pointList="-708,-184,-708,-264" />
+
+<item itemtype="Connector" uid="Connector-845" startpinid="Node-386-2" endpinid="And Gate-382-in0" pointList="-708,-264,-532,-264" />
+
+<item itemtype="Connector" uid="Connector-849" startpinid="Node-358-0" endpinid="Node-388-0" pointList="-660,-192,-660,-240" />
+
+<item itemtype="Connector" uid="Connector-850" startpinid="Node-388-2" endpinid="And Gate-362-in0" pointList="-660,-240,-532,-240" />
+
+<item itemtype="Connector" uid="Connector-854" startpinid="Node-365-0" endpinid="Node-390-0" pointList="-612,-168,-612,-216" />
+
+<item itemtype="Connector" uid="Connector-855" startpinid="Node-390-2" endpinid="And Gate-360-in0" pointList="-612,-216,-532,-216" />
+
+<item itemtype="Connector" uid="Connector-859" startpinid="Node-345-0" endpinid="Node-392-0" pointList="-1044,-192,-1044,-240" />
+
+<item itemtype="Connector" uid="Connector-860" startpinid="Node-392-2" endpinid="And Gate-338-in0" pointList="-1044,-240,-916,-240" />
+
+<item itemtype="Connector" uid="Connector-864" startpinid="Node-343-0" endpinid="Node-394-0" pointList="-996,-168,-996,-216" />
+
+<item itemtype="Connector" uid="Connector-865" startpinid="Node-394-2" endpinid="And Gate-339-in0" pointList="-996,-216,-916,-216" />
+
+<item itemtype="Connector" uid="Connector-866" startpinid="Or Gate-337-out" endpinid="Node-395-1" pointList="-788,-240,-776,-240,-776,-208,-756,-208" />
+
+<item itemtype="Connector" uid="Connector-867" startpinid="Node-370-1" endpinid="Node-395-0" pointList="-756,-232,-756,-208" />
+
+<item itemtype="Connector" uid="Connector-868" startpinid="Node-395-2" endpinid="And Gate-360-in1" pointList="-756,-208,-532,-208" />
+
+<item itemtype="Connector" uid="Connector-869" startpinid="Node-396-1" endpinid="Xor Gate-243-in1" pointList="-756,-256,-756,-288,-532,-288" />
+
+<item itemtype="Connector" uid="Connector-870" startpinid="Node-370-0" endpinid="Node-396-0" pointList="-756,-232,-756,-256" />
+
+<item itemtype="Connector" uid="Connector-871" startpinid="Node-396-2" endpinid="And Gate-382-in1" pointList="-756,-256,-532,-256" />
+
+<item itemtype="Connector" uid="Connector-881" startpinid="Or Gate-371-out" endpinid="Tunnel-280-pin" pointList="-20,-240,12,-240" />
+
+<item itemtype="Connector" uid="Connector-882" startpinid="Node-400-1" endpinid="Node-401-1" pointList="-324,-296,-324,-264" />
+
+<item itemtype="Connector" uid="Connector-883" startpinid="Tunnel-257-pin" endpinid="Node-400-0" pointList="-324,-356,-324,-296" />
+
+<item itemtype="Connector" uid="Connector-884" startpinid="Node-400-2" endpinid="Xor Gate-234-in0" pointList="-324,-296,-148,-296" />
+
+<item itemtype="Connector" uid="Connector-885" startpinid="Node-376-0" endpinid="Node-401-0" pointList="-324,-184,-324,-264" />
+
+<item itemtype="Connector" uid="Connector-886" startpinid="Node-401-2" endpinid="And Gate-359-in0" pointList="-324,-264,-148,-264" />
+
+<item itemtype="Connector" uid="Connector-890" startpinid="Node-380-0" endpinid="Node-403-0" pointList="-276,-192,-276,-240" />
+
+<item itemtype="Connector" uid="Connector-891" startpinid="Node-403-2" endpinid="And Gate-366-in0" pointList="-276,-240,-148,-240" />
+
+<item itemtype="Connector" uid="Connector-895" startpinid="Node-373-0" endpinid="Node-405-0" pointList="-228,-168,-228,-216" />
+
+<item itemtype="Connector" uid="Connector-896" startpinid="Node-405-2" endpinid="And Gate-374-in0" pointList="-228,-216,-148,-216" />
+
+<item itemtype="Connector" uid="Connector-897" startpinid="Node-406-1" endpinid="Xor Gate-234-in1" pointList="-372,-256,-372,-288,-148,-288" />
+
+<item itemtype="Connector" uid="Connector-898" startpinid="Node-377-0" endpinid="Node-406-0" pointList="-372,-232,-372,-256" />
+
+<item itemtype="Connector" uid="Connector-899" startpinid="Node-406-2" endpinid="And Gate-359-in1" pointList="-372,-256,-148,-256" />
+
+<item itemtype="Connector" uid="Connector-863" startpinid="Node-393-2" endpinid="Xor Gate-185-in0" pointList="-996,-336,-916,-336" />
+
+<item itemtype="Connector" uid="Connector-862" startpinid="Tunnel-182-pin" endpinid="Node-393-0" pointList="-996,-356,-996,-336" />
+
+<item itemtype="Connector" uid="Connector-861" startpinid="Node-393-1" endpinid="Node-394-1" pointList="-996,-336,-996,-216" />
+
+<item itemtype="Connector" uid="Connector-858" startpinid="Node-391-2" endpinid="Xor Gate-185-in1" pointList="-1044,-328,-916,-328" />
+
+<item itemtype="Connector" uid="Connector-857" startpinid="Tunnel-178-pin" endpinid="Node-391-0" pointList="-1044,-356,-1044,-328" />
+
+<item itemtype="Connector" uid="Connector-856" startpinid="Node-391-1" endpinid="Node-392-1" pointList="-1044,-328,-1044,-240" />
+
+<item itemtype="Connector" uid="Connector-853" startpinid="Node-389-2" endpinid="Xor Gate-246-in0" pointList="-612,-336,-532,-336" />
+
+<item itemtype="Connector" uid="Connector-852" startpinid="Tunnel-216-pin" endpinid="Node-389-0" pointList="-612,-356,-612,-336" />
+
+<item itemtype="Connector" uid="Connector-851" startpinid="Node-389-1" endpinid="Node-390-1" pointList="-612,-336,-612,-216" />
+
+<item itemtype="Connector" uid="Connector-848" startpinid="Node-387-2" endpinid="Xor Gate-246-in1" pointList="-660,-328,-532,-328" />
+
+<item itemtype="Connector" uid="Connector-847" startpinid="Tunnel-225-pin" endpinid="Node-387-0" pointList="-660,-356,-660,-328" />
+
+<item itemtype="Connector" uid="Connector-846" startpinid="Node-387-1" endpinid="Node-388-1" pointList="-660,-328,-660,-240" />
+
+<item itemtype="Connector" uid="Connector-889" startpinid="Node-402-2" endpinid="Xor Gate-236-in1" pointList="-276,-328,-148,-328" />
+
+<item itemtype="Connector" uid="Connector-888" startpinid="Tunnel-208-pin" endpinid="Node-402-0" pointList="-276,-356,-276,-328" />
+
+<item itemtype="Connector" uid="Connector-887" startpinid="Node-402-1" endpinid="Node-403-1" pointList="-276,-328,-276,-240" />
+
+<item itemtype="Connector" uid="Connector-894" startpinid="Node-404-2" endpinid="Xor Gate-236-in0" pointList="-228,-336,-148,-336" />
+
+<item itemtype="Connector" uid="Connector-893" startpinid="Tunnel-221-pin" endpinid="Node-404-0" pointList="-228,-356,-228,-336" />
+
+<item itemtype="Connector" uid="Connector-892" startpinid="Node-404-1" endpinid="Node-405-1" pointList="-228,-336,-228,-216" />
+
+<item itemtype="Connector" uid="Connector-671" startpinid="Node-329-2" endpinid="Xor Gate-131-in0" pointList="-1380,-336,-1300,-336" />
+
+<item itemtype="Connector" uid="Connector-670" startpinid="Tunnel-159-pin" endpinid="Node-329-0" pointList="-1380,-356,-1380,-336" />
+
+<item itemtype="Connector" uid="Connector-669" startpinid="Node-329-1" endpinid="Node-330-1" pointList="-1380,-336,-1380,-216" />
+
+<item itemtype="Connector" uid="Connector-676" startpinid="Node-331-2" endpinid="Xor Gate-131-in1" pointList="-1428,-328,-1300,-328" />
+
+<item itemtype="Connector" uid="Connector-675" startpinid="Tunnel-160-pin" endpinid="Node-331-0" pointList="-1428,-356,-1428,-328" />
+
+<item itemtype="Connector" uid="Connector-674" startpinid="Node-331-1" endpinid="Node-332-1" pointList="-1428,-328,-1428,-240" />
+
+<item itemtype="Connector" uid="Connector-1016" startpinid="Node-466-1" endpinid="Node-482-0" pointList="460,-904,508,-904" />
+
+<item itemtype="Connector" uid="Connector-1017" startpinid="Xor Gate-487-out" endpinid="Xor Gate-496-in0" pointList="716,-820,780,-820,780,-804" />
+
+<item itemtype="Connector" uid="Connector-1022" startpinid="Resistor-463-lPin" endpinid="Led-489-rPin" pointList="884,-720,868,-720" />
+
+<item itemtype="Connector" uid="Connector-1027" startpinid="Xor Gate-483-out" endpinid="Xor Gate-496-in1" pointList="716,-780,780,-780,780,-796" />
+
+<item itemtype="Connector" uid="Connector-1030" startpinid="Node-482-1" endpinid="Node-490-0" pointList="508,-904,556,-904" />
+
+<item itemtype="Connector" uid="Connector-1031" startpinid="Node-490-1" endpinid="Switch-486-pinP0" pointList="556,-904,604,-904,604,-888" />
+
+<item itemtype="Connector" uid="Connector-1034" startpinid="Fixed Voltage-493-outnod" endpinid="Node-466-0" pointList="444,-904,460,-904" />
+
+<item itemtype="Connector" uid="Connector-1036" startpinid="Resistor-476-rPin" endpinid="Ground-495-Gnd" pointList="916,-800,932,-800" />
+
+<item itemtype="Connector" uid="Connector-1040" startpinid="Or Gate-477-out" endpinid="Led-489-lPin" pointList="812,-720,836,-720" />
+
+<item itemtype="Connector" uid="Connector-1042" startpinid="Resistor-476-lPin" endpinid="Led-475-rPin" pointList="884,-800,868,-800" />
+
+<item itemtype="Connector" uid="Connector-1043" startpinid="Node-490-2" endpinid="Switch-481-pinP0" pointList="556,-904,556,-888" />
+
+<item itemtype="Connector" uid="Connector-1044" startpinid="Resistor-463-rPin" endpinid="Ground-488-Gnd" pointList="916,-720,932,-720" />
+
+<item itemtype="Connector" uid="Connector-1049" startpinid="Xor Gate-496-out" endpinid="Led-475-lPin" pointList="812,-800,836,-800" />
+
+<item itemtype="Connector" uid="Connector-1053" startpinid="Node-466-2" endpinid="Switch-469-pinP0" pointList="460,-904,460,-888" />
+
+<item itemtype="Connector" uid="Connector-1054" startpinid="Node-482-2" endpinid="Switch-494-pinP0" pointList="508,-904,508,-888" />
+
+<item itemtype="Connector" uid="Connector-1095" startpinid="Node-498-1" endpinid="And Gate-492-in1" pointList="460,-776,460,-724,684,-724" />
+
+<item itemtype="Connector" uid="Connector-1096" startpinid="Switch-469-switch0pinN" endpinid="Node-498-0" pointList="460,-856,460,-776" />
+
+<item itemtype="Connector" uid="Connector-1097" startpinid="Node-498-2" endpinid="Xor Gate-483-in1" pointList="460,-776,684,-776" />
+
+<item itemtype="Connector" uid="Connector-1100" startpinid="Switch-494-switch0pinN" endpinid="Node-499-0" pointList="508,-856,508,-784" />
+
+<item itemtype="Connector" uid="Connector-1101" startpinid="Node-499-2" endpinid="Xor Gate-483-in0" pointList="508,-784,684,-784" />
+
+<item itemtype="Connector" uid="Connector-1103" startpinid="Switch-481-switch0pinN" endpinid="Node-500-0" pointList="556,-856,556,-816" />
+
+<item itemtype="Connector" uid="Connector-1104" startpinid="Node-500-2" endpinid="Xor Gate-487-in1" pointList="556,-816,684,-816" />
+
+<item itemtype="Connector" uid="Connector-1106" startpinid="Switch-486-switch0pinN" endpinid="Node-501-0" pointList="604,-856,604,-824" />
+
+<item itemtype="Connector" uid="Connector-1107" startpinid="Node-501-2" endpinid="Xor Gate-487-in0" pointList="604,-824,684,-824" />
+
+<item itemtype="Connector" uid="Connector-1111" startpinid="Or Gate-497-out" endpinid="And Gate-492-in0" pointList="668,-744,684,-744,684,-732" />
+
+<item itemtype="Connector" uid="Connector-1113" startpinid="Node-500-1" endpinid="Node-506-0" pointList="556,-816,556,-744" />
+
+<item itemtype="Connector" uid="Connector-1114" startpinid="Node-506-2" endpinid="Or Gate-497-in1" pointList="556,-744,636,-744" />
+
+<item itemtype="Connector" uid="Connector-1116" startpinid="Node-501-1" endpinid="Node-507-0" pointList="604,-824,604,-752" />
+
+<item itemtype="Connector" uid="Connector-1117" startpinid="Node-507-2" endpinid="Or Gate-497-in0" pointList="604,-752,636,-752" />
+
+<item itemtype="Connector" uid="Connector-1118" startpinid="Or Gate-505-out" endpinid="And Gate-504-in0" pointList="668,-712,684,-712,684,-700" />
+
+<item itemtype="Connector" uid="Connector-1119" startpinid="Node-508-1" endpinid="And Gate-504-in1" pointList="508,-736,508,-692,684,-692" />
+
+<item itemtype="Connector" uid="Connector-1120" startpinid="Node-499-1" endpinid="Node-508-0" pointList="508,-784,508,-736" />
+
+<item itemtype="Connector" uid="Connector-1121" startpinid="Node-508-2" endpinid="Or Gate-497-in2" pointList="508,-736,636,-736" />
+
+<item itemtype="Connector" uid="Connector-1123" startpinid="Node-506-1" endpinid="Node-510-0" pointList="556,-744,556,-708" />
+
+<item itemtype="Connector" uid="Connector-1124" startpinid="Node-510-2" endpinid="Or Gate-505-in1" pointList="556,-708,636,-708" />
+
+<item itemtype="Connector" uid="Connector-1125" startpinid="Node-511-1" endpinid="And Gate-509-in0" pointList="604,-716,604,-668,684,-668" />
+
+<item itemtype="Connector" uid="Connector-1126" startpinid="Node-507-1" endpinid="Node-511-0" pointList="604,-752,604,-716" />
+
+<item itemtype="Connector" uid="Connector-1127" startpinid="Node-511-2" endpinid="Or Gate-505-in0" pointList="604,-716,636,-716" />
+
+<item itemtype="Connector" uid="Connector-1128" startpinid="And Gate-492-out" endpinid="Or Gate-477-in0" pointList="716,-728,780,-728" />
+
+<item itemtype="Connector" uid="Connector-1129" startpinid="And Gate-504-out" endpinid="Or Gate-477-in1" pointList="716,-696,716,-720,780,-720" />
+
+<item itemtype="Connector" uid="Connector-1130" startpinid="And Gate-509-out" endpinid="Or Gate-477-in2" pointList="716,-664,724,-664,724,-712,780,-712" />
+
+<item itemtype="Connector" uid="Connector-1131" startpinid="Tunnel-513-pin" endpinid="7-Seg BCD-547-in1" pointList="-972,320,-972,276" />
+
+<item itemtype="Connector" uid="Connector-1132" startpinid="Node-533-1" endpinid="7-Seg BCD-516-in1" pointList="-1208,288,-1264,288,-1264,276" />
+
+<item itemtype="Connector" uid="Connector-1133" startpinid="Node-532-1" endpinid="7-Seg BCD-555-in2" pointList="-1332,296,-1388,296,-1388,276" />
+
+<item itemtype="Connector" uid="Connector-1134" startpinid="Node-533-2" endpinid="Tunnel-536-pin" pointList="-1208,288,-1208,320" />
+
+<item itemtype="Connector" uid="Connector-1135" startpinid="Node-549-1" endpinid="7-Seg BCD-531-in0" pointList="-1080,280,-1136,280,-1136,276" />
+
+<item itemtype="Connector" uid="Connector-1136" startpinid="SwitchDip-523-switch1-pinN" endpinid="Node-533-0" pointList="-1208,232,-1208,288" />
+
+<item itemtype="Connector" uid="Connector-1137" startpinid="Node-532-2" endpinid="SwitchDip-518-switch2-pinN" pointList="-1332,296,-1332,232" />
+
+<item itemtype="Connector" uid="Connector-1138" startpinid="Node-512-1" endpinid="Node-554-0" pointList="-1216,180,-1208,180" />
+
+<item itemtype="Connector" uid="Connector-1139" startpinid="SwitchDip-518-switch3-pinN" endpinid="Node-514-0" pointList="-1340,232,-1340,304" />
+
+<item itemtype="Connector" uid="Connector-1140" startpinid="Tunnel-553-pin" endpinid="7-Seg BCD-547-in0" pointList="-964,320,-964,276" />
+
+<item itemtype="Connector" uid="Connector-1141" startpinid="Node-542-1" endpinid="SwitchDip-518-switch0-pinP" pointList="-1324,180,-1316,180,-1316,208" />
+
+<item itemtype="Connector" uid="Connector-1142" startpinid="Node-524-1" endpinid="7-Seg BCD-555-in0" pointList="-1316,280,-1372,280,-1372,276" />
+
+<item itemtype="Connector" uid="Connector-1143" startpinid="Fixed Voltage-552-outnod" endpinid="Node-521-0" pointList="-1232,180,-1224,180" />
+
+<item itemtype="Connector" uid="Connector-1144" startpinid="Node-548-1" endpinid="7-Seg BCD-516-in0" pointList="-1200,280,-1256,280,-1256,276" />
+
+<item itemtype="Connector" uid="Connector-1145" startpinid="Tunnel-529-pin" endpinid="Node-548-0" pointList="-1200,320,-1200,280" />
+
+<item itemtype="Connector" uid="Connector-1146" startpinid="Node-530-2" endpinid="Tunnel-522-pin" pointList="-1324,288,-1324,320" />
+
+<item itemtype="Connector" uid="Connector-1147" startpinid="Node-520-1" endpinid="Node-542-0" pointList="-1332,180,-1324,180" />
+
+<item itemtype="Connector" uid="Connector-1148" startpinid="SwitchDip-546-switch3-pinN" endpinid="Node-551-0" pointList="-1104,232,-1104,304" />
+
+<item itemtype="Connector" uid="Connector-1149" startpinid="Tunnel-559-pin" endpinid="Node-524-0" pointList="-1316,320,-1316,280" />
+
+<item itemtype="Connector" uid="Connector-1150" startpinid="Node-530-1" endpinid="7-Seg BCD-555-in1" pointList="-1324,288,-1380,288,-1380,276" />
+
+<item itemtype="Connector" uid="Connector-1151" startpinid="Node-548-2" endpinid="SwitchDip-523-switch0-pinN" pointList="-1200,280,-1200,232" />
+
+<item itemtype="Connector" uid="Connector-1152" startpinid="Node-515-2" endpinid="Tunnel-517-pin" pointList="-1088,288,-1088,320" />
+
+<item itemtype="Connector" uid="Connector-1153" startpinid="Node-514-1" endpinid="7-Seg BCD-555-in3" pointList="-1340,304,-1396,304,-1396,276" />
+
+<item itemtype="Connector" uid="Connector-1154" startpinid="Node-527-2" endpinid="SwitchDip-546-switch2-pinP" pointList="-1096,180,-1096,208" />
+
+<item itemtype="Connector" uid="Connector-1155" startpinid="SwitchDip-546-switch1-pinN" endpinid="Node-515-0" pointList="-1088,232,-1088,288" />
+
+<item itemtype="Connector" uid="Connector-1156" startpinid="Node-542-2" endpinid="SwitchDip-518-switch1-pinP" pointList="-1324,180,-1324,208" />
+
+<item itemtype="Connector" uid="Connector-1157" startpinid="Node-515-1" endpinid="7-Seg BCD-531-in1" pointList="-1088,288,-1144,288,-1144,276" />
+
+<item itemtype="Connector" uid="Connector-1158" startpinid="Node-537-1" endpinid="Node-527-0" pointList="-1104,180,-1096,180" />
+
+<item itemtype="Connector" uid="Connector-1159" startpinid="Node-550-1" endpinid="7-Seg BCD-516-in3" pointList="-1224,304,-1280,304,-1280,276" />
+
+<item itemtype="Connector" uid="Connector-1160" startpinid="Node-554-2" endpinid="SwitchDip-523-switch1-pinP" pointList="-1208,180,-1208,208" />
+
+<item itemtype="Connector" uid="Connector-1161" startpinid="Node-551-2" endpinid="Tunnel-557-pin" pointList="-1104,304,-1104,320" />
+
+<item itemtype="Connector" uid="Connector-1162" startpinid="Fixed Voltage-534-outnod" endpinid="Node-537-0" pointList="-1112,180,-1104,180" />
+
+<item itemtype="Connector" uid="Connector-1163" startpinid="Node-537-2" endpinid="SwitchDip-546-switch3-pinP" pointList="-1104,180,-1104,208" />
+
+<item itemtype="Connector" uid="Connector-1164" startpinid="Tunnel-526-pin" endpinid="Node-539-0" pointList="-1096,320,-1096,296" />
+
+<item itemtype="Connector" uid="Connector-1165" startpinid="SwitchDip-518-switch1-pinN" endpinid="Node-530-0" pointList="-1324,232,-1324,288" />
+
+<item itemtype="Connector" uid="Connector-1166" startpinid="SwitchDip-523-switch3-pinN" endpinid="Node-550-0" pointList="-1224,232,-1224,304" />
+
+<item itemtype="Connector" uid="Connector-1167" startpinid="Node-554-1" endpinid="SwitchDip-523-switch0-pinP" pointList="-1208,180,-1200,180,-1200,208" />
+
+<item itemtype="Connector" uid="Connector-1168" startpinid="Node-521-1" endpinid="Node-512-0" pointList="-1224,180,-1216,180" />
+
+<item itemtype="Connector" uid="Connector-1169" startpinid="Tunnel-535-pin" endpinid="Node-549-0" pointList="-1080,320,-1080,280" />
+
+<item itemtype="Connector" uid="Connector-1170" startpinid="Node-551-1" endpinid="7-Seg BCD-531-in3" pointList="-1104,304,-1160,304,-1160,276" />
+
+<item itemtype="Connector" uid="Connector-1171" startpinid="Node-519-1" endpinid="SwitchDip-546-switch0-pinP" pointList="-1088,180,-1080,180,-1080,208" />
+
+<item itemtype="Connector" uid="Connector-1172" startpinid="Node-540-2" endpinid="SwitchDip-523-switch2-pinN" pointList="-1216,296,-1216,232" />
+
+<item itemtype="Connector" uid="Connector-1173" startpinid="Node-540-1" endpinid="7-Seg BCD-516-in2" pointList="-1216,296,-1272,296,-1272,276" />
+
+<item itemtype="Connector" uid="Connector-1174" startpinid="Node-520-2" endpinid="SwitchDip-518-switch2-pinP" pointList="-1332,180,-1332,208" />
+
+<item itemtype="Connector" uid="Connector-1175" startpinid="Node-527-1" endpinid="Node-519-0" pointList="-1096,180,-1088,180" />
+
+<item itemtype="Connector" uid="Connector-1176" startpinid="Tunnel-525-pin" endpinid="7-Seg BCD-547-in3" pointList="-988,320,-988,276" />
+
+<item itemtype="Connector" uid="Connector-1177" startpinid="Node-545-2" endpinid="SwitchDip-518-switch3-pinP" pointList="-1340,180,-1340,208" />
+
+<item itemtype="Connector" uid="Connector-1178" startpinid="Node-514-2" endpinid="Tunnel-544-pin" pointList="-1340,304,-1340,320" />
+
+<item itemtype="Connector" uid="Connector-1179" startpinid="Node-545-1" endpinid="Node-520-0" pointList="-1340,180,-1332,180" />
+
+<item itemtype="Connector" uid="Connector-1180" startpinid="Node-539-1" endpinid="7-Seg BCD-531-in2" pointList="-1096,296,-1152,296,-1152,276" />
+
+<item itemtype="Connector" uid="Connector-1181" startpinid="Tunnel-543-pin" endpinid="7-Seg BCD-547-in2" pointList="-980,320,-980,276" />
+
+<item itemtype="Connector" uid="Connector-1182" startpinid="Node-521-2" endpinid="SwitchDip-523-switch3-pinP" pointList="-1224,180,-1224,208" />
+
+<item itemtype="Connector" uid="Connector-1183" startpinid="Node-519-2" endpinid="SwitchDip-546-switch1-pinP" pointList="-1088,180,-1088,208" />
+
+<item itemtype="Connector" uid="Connector-1184" startpinid="Tunnel-558-pin" endpinid="7-Seg BCD-560-in0" pointList="-1004,320,-1004,276" />
+
+<item itemtype="Connector" uid="Connector-1185" startpinid="Node-550-2" endpinid="Tunnel-556-pin" pointList="-1224,304,-1224,320" />
+
+<item itemtype="Connector" uid="Connector-1186" startpinid="Node-549-2" endpinid="SwitchDip-546-switch0-pinN" pointList="-1080,280,-1080,232" />
+
+<item itemtype="Connector" uid="Connector-1187" startpinid="Node-512-2" endpinid="SwitchDip-523-switch2-pinP" pointList="-1216,180,-1216,208" />
+
+<item itemtype="Connector" uid="Connector-1188" startpinid="Tunnel-541-pin" endpinid="Node-540-0" pointList="-1216,320,-1216,296" />
+
+<item itemtype="Connector" uid="Connector-1189" startpinid="Fixed Voltage-528-outnod" endpinid="Node-545-0" pointList="-1348,180,-1340,180" />
+
+<item itemtype="Connector" uid="Connector-1190" startpinid="Tunnel-538-pin" endpinid="Node-532-0" pointList="-1332,320,-1332,296" />
+
+<item itemtype="Connector" uid="Connector-1191" startpinid="Node-524-2" endpinid="SwitchDip-518-switch0-pinN" pointList="-1316,280,-1316,232" />
+
+<item itemtype="Connector" uid="Connector-1192" startpinid="Node-539-2" endpinid="SwitchDip-546-switch2-pinN" pointList="-1096,296,-1096,232" />
+
+<item itemtype="Connector" uid="Connector-1222" startpinid="Xor Gate-573-out" endpinid="Xor Gate-645-in0" pointList="-1208,516,-1144,516,-1144,532" />
+
+<item itemtype="Connector" uid="Connector-1234" startpinid="Xor Gate-640-out" endpinid="Xor Gate-643-in0" pointList="-56,516,8,516,8,532" />
+
+<item itemtype="Connector" uid="Connector-1235" startpinid="Xor Gate-661-out" endpinid="Xor Gate-637-in0" pointList="-440,516,-376,516,-376,532" />
+
+<item itemtype="Connector" uid="Connector-1252" startpinid="Tunnel-596-pin" endpinid="Xor Gate-637-out" pointList="-344,492,-344,536" />
+
+<item itemtype="Connector" uid="Connector-1258" startpinid="Xor Gate-646-out" endpinid="Xor Gate-643-in1" pointList="-56,556,8,556,8,540" />
+
+<item itemtype="Connector" uid="Connector-1264" startpinid="Xor Gate-611-out" endpinid="Xor Gate-638-in0" pointList="-824,516,-760,516,-760,532" />
+
+<item itemtype="Connector" uid="Connector-1266" startpinid="Xor Gate-652-out" endpinid="Xor Gate-645-in1" pointList="-1208,556,-1144,556,-1144,540" />
+
+<item itemtype="Connector" uid="Connector-1269" startpinid="Xor Gate-631-out" endpinid="Xor Gate-638-in1" pointList="-824,556,-760,556,-760,540" />
+
+<item itemtype="Connector" uid="Connector-1279" startpinid="Tunnel-634-pin" endpinid="Xor Gate-643-out" pointList="40,492,40,536" />
+
+<item itemtype="Connector" uid="Connector-1315" startpinid="Xor Gate-623-out" endpinid="Xor Gate-637-in1" pointList="-440,556,-376,556,-376,540" />
+
+<item itemtype="Connector" uid="Connector-1329" startpinid="Tunnel-649-pin" endpinid="Xor Gate-638-out" pointList="-728,492,-728,536" />
+
+<item itemtype="Connector" uid="Connector-1331" startpinid="Tunnel-588-pin" endpinid="Xor Gate-645-out" pointList="-1112,492,-1112,536" />
+
+<item itemtype="Connector" uid="Connector-1122" startpinid="Node-510-1" endpinid="And Gate-509-in1" pointList="556,-708,556,-660,684,-660" />
+
+<item itemtype="Connector" uid="Connector-1367" startpinid="Node-683-1" endpinid="And Gate-677-in1" pointList="-1368,628,-1368,676,-1240,676" />
+
+<item itemtype="Connector" uid="Connector-1369" startpinid="Or Gate-684-out" endpinid="And Gate-686-in0" pointList="-1256,624,-1240,624,-1240,636" />
+
+<item itemtype="Connector" uid="Connector-1370" startpinid="Node-682-1" endpinid="And Gate-677-in0" pointList="-1320,620,-1320,668,-1240,668" />
+
+<item itemtype="Connector" uid="Connector-1375" startpinid="Node-682-2" endpinid="Or Gate-684-in0" pointList="-1320,620,-1288,620" />
+
+<item itemtype="Connector" uid="Connector-1376" startpinid="Or Gate-687-out" endpinid="And Gate-679-in0" pointList="-1256,592,-1240,592,-1240,604" />
+
+<item itemtype="Connector" uid="Connector-1377" startpinid="And Gate-686-out" endpinid="Or Gate-680-in1" pointList="-1208,640,-1208,616,-1144,616" />
+
+<item itemtype="Connector" uid="Connector-1378" startpinid="And Gate-677-out" endpinid="Or Gate-680-in2" pointList="-1208,672,-1200,672,-1200,624,-1144,624" />
+
+<item itemtype="Connector" uid="Connector-1384" startpinid="And Gate-679-out" endpinid="Or Gate-680-in0" pointList="-1208,608,-1144,608" />
+
+<item itemtype="Connector" uid="Connector-1385" startpinid="Node-683-2" endpinid="Or Gate-684-in1" pointList="-1368,628,-1288,628" />
+
+<item itemtype="Connector" uid="Connector-1445" startpinid="Node-710-1" endpinid="Node-711-1" pointList="-1320,512,-1320,584" />
+
+<item itemtype="Connector" uid="Connector-1446" startpinid="Tunnel-565-pin" endpinid="Node-710-0" pointList="-1320,492,-1320,512" />
+
+<item itemtype="Connector" uid="Connector-1447" startpinid="Node-710-2" endpinid="Xor Gate-573-in0" pointList="-1320,512,-1240,512" />
+
+<item itemtype="Connector" uid="Connector-1448" startpinid="Node-682-0" endpinid="Node-711-0" pointList="-1320,620,-1320,584" />
+
+<item itemtype="Connector" uid="Connector-1449" startpinid="Node-711-2" endpinid="Or Gate-687-in0" pointList="-1320,584,-1288,584" />
+
+<item itemtype="Connector" uid="Connector-1450" startpinid="Node-712-1" endpinid="Node-713-1" pointList="-1368,520,-1368,592" />
+
+<item itemtype="Connector" uid="Connector-1451" startpinid="Tunnel-618-pin" endpinid="Node-712-0" pointList="-1368,492,-1368,520" />
+
+<item itemtype="Connector" uid="Connector-1452" startpinid="Node-712-2" endpinid="Xor Gate-573-in1" pointList="-1368,520,-1240,520" />
+
+<item itemtype="Connector" uid="Connector-1453" startpinid="Node-683-0" endpinid="Node-713-0" pointList="-1368,628,-1368,592" />
+
+<item itemtype="Connector" uid="Connector-1454" startpinid="Node-713-2" endpinid="Or Gate-687-in1" pointList="-1368,592,-1288,592" />
+
+<item itemtype="Connector" uid="Connector-1455" startpinid="Node-714-1" endpinid="Node-715-1" pointList="-1416,552,-1416,600" />
+
+<item itemtype="Connector" uid="Connector-1456" startpinid="Tunnel-571-pin" endpinid="Node-714-0" pointList="-1416,492,-1416,552" />
+
+<item itemtype="Connector" uid="Connector-1457" startpinid="Node-714-2" endpinid="Xor Gate-652-in0" pointList="-1416,552,-1240,552" />
+
+<item itemtype="Connector" uid="Connector-1458" startpinid="And Gate-686-in1" endpinid="Node-715-0" pointList="-1240,644,-1416,644,-1416,600" />
+
+<item itemtype="Connector" uid="Connector-1459" startpinid="Node-715-2" endpinid="Or Gate-687-in2" pointList="-1416,600,-1288,600" />
+
+<item itemtype="Connector" uid="Connector-1483" startpinid="And Gate-734-out" endpinid="Or Gate-732-in0" pointList="-824,608,-760,608" />
+
+<item itemtype="Connector" uid="Connector-1484" startpinid="Node-731-2" endpinid="Or Gate-728-in1" pointList="-984,628,-904,628" />
+
+<item itemtype="Connector" uid="Connector-1487" startpinid="And Gate-735-out" endpinid="Or Gate-732-in1" pointList="-824,640,-824,616,-760,616" />
+
+<item itemtype="Connector" uid="Connector-1489" startpinid="And Gate-737-out" endpinid="Or Gate-732-in2" pointList="-824,672,-816,672,-816,624,-760,624" />
+
+<item itemtype="Connector" uid="Connector-1492" startpinid="Node-733-2" endpinid="Or Gate-728-in0" pointList="-936,620,-904,620" />
+
+<item itemtype="Connector" uid="Connector-1493" startpinid="Or Gate-727-out" endpinid="And Gate-734-in0" pointList="-872,592,-856,592,-856,604" />
+
+<item itemtype="Connector" uid="Connector-1494" startpinid="Or Gate-728-out" endpinid="And Gate-735-in0" pointList="-872,624,-856,624,-856,636" />
+
+<item itemtype="Connector" uid="Connector-1495" startpinid="Node-733-1" endpinid="And Gate-737-in0" pointList="-936,620,-936,668,-856,668" />
+
+<item itemtype="Connector" uid="Connector-1486" startpinid="Node-731-1" endpinid="And Gate-737-in1" pointList="-984,628,-984,676,-856,676" />
+
+<item itemtype="Connector" uid="Connector-1541" startpinid="Node-739-1" endpinid="Node-740-1" pointList="-1032,552,-1032,600" />
+
+<item itemtype="Connector" uid="Connector-1542" startpinid="Tunnel-577-pin" endpinid="Node-739-0" pointList="-1032,492,-1032,552" />
+
+<item itemtype="Connector" uid="Connector-1543" startpinid="Node-739-2" endpinid="Xor Gate-631-in0" pointList="-1032,552,-856,552" />
+
+<item itemtype="Connector" uid="Connector-1544" startpinid="And Gate-735-in1" endpinid="Node-740-0" pointList="-856,644,-1032,644,-1032,600" />
+
+<item itemtype="Connector" uid="Connector-1545" startpinid="Node-740-2" endpinid="Or Gate-727-in2" pointList="-1032,600,-904,600" />
+
+<item itemtype="Connector" uid="Connector-1546" startpinid="Node-741-1" endpinid="Node-742-1" pointList="-984,520,-984,592" />
+
+<item itemtype="Connector" uid="Connector-1547" startpinid="Tunnel-659-pin" endpinid="Node-741-0" pointList="-984,492,-984,520" />
+
+<item itemtype="Connector" uid="Connector-1548" startpinid="Node-741-2" endpinid="Xor Gate-611-in1" pointList="-984,520,-856,520" />
+
+<item itemtype="Connector" uid="Connector-1549" startpinid="Node-731-0" endpinid="Node-742-0" pointList="-984,628,-984,592" />
+
+<item itemtype="Connector" uid="Connector-1550" startpinid="Node-742-2" endpinid="Or Gate-727-in1" pointList="-984,592,-904,592" />
+
+<item itemtype="Connector" uid="Connector-1551" startpinid="Node-743-1" endpinid="Node-744-1" pointList="-936,512,-936,584" />
+
+<item itemtype="Connector" uid="Connector-1552" startpinid="Tunnel-605-pin" endpinid="Node-743-0" pointList="-936,492,-936,512" />
+
+<item itemtype="Connector" uid="Connector-1553" startpinid="Node-743-2" endpinid="Xor Gate-611-in0" pointList="-936,512,-856,512" />
+
+<item itemtype="Connector" uid="Connector-1554" startpinid="Node-733-0" endpinid="Node-744-0" pointList="-936,620,-936,584" />
+
+<item itemtype="Connector" uid="Connector-1555" startpinid="Node-744-2" endpinid="Or Gate-727-in0" pointList="-936,584,-904,584" />
+
+<item itemtype="Connector" uid="Connector-1564" startpinid="Node-747-1" endpinid="And Gate-734-in1" pointList="-1040,616,-1040,612,-856,612" />
+
+<item itemtype="Connector" uid="Connector-1565" startpinid="Or Gate-680-out" endpinid="Node-747-0" pointList="-1112,616,-1040,616" />
+
+<item itemtype="Connector" uid="Connector-1566" startpinid="Node-747-2" endpinid="Xor Gate-631-in1" pointList="-1040,616,-1040,560,-856,560" />
+
+<item itemtype="Connector" uid="Connector-1569" startpinid="And Gate-758-out" endpinid="Or Gate-748-in2" pointList="-56,672,-48,672,-48,624,8,624" />
+
+<item itemtype="Connector" uid="Connector-1570" startpinid="And Gate-753-out" endpinid="Or Gate-748-in1" pointList="-56,640,-56,616,8,616" />
+
+<item itemtype="Connector" uid="Connector-1571" startpinid="Node-764-1" endpinid="And Gate-751-in1" pointList="-600,628,-600,676,-472,676" />
+
+<item itemtype="Connector" uid="Connector-1575" startpinid="Or Gate-759-out" endpinid="And Gate-750-in0" pointList="-104,592,-88,592,-88,604" />
+
+<item itemtype="Connector" uid="Connector-1576" startpinid="Or Gate-768-out" endpinid="And Gate-753-in0" pointList="-104,624,-88,624,-88,636" />
+
+<item itemtype="Connector" uid="Connector-1579" startpinid="And Gate-751-out" endpinid="Or Gate-766-in2" pointList="-440,672,-432,672,-432,624,-376,624" />
+
+<item itemtype="Connector" uid="Connector-1582" startpinid="Node-762-1" endpinid="And Gate-758-in1" pointList="-216,628,-216,676,-88,676" />
+
+<item itemtype="Connector" uid="Connector-1583" startpinid="Node-761-1" endpinid="And Gate-751-in0" pointList="-552,620,-552,668,-472,668" />
+
+<item itemtype="Connector" uid="Connector-1585" startpinid="Node-761-2" endpinid="Or Gate-760-in0" pointList="-552,620,-520,620" />
+
+<item itemtype="Connector" uid="Connector-1589" startpinid="Or Gate-760-out" endpinid="And Gate-769-in0" pointList="-488,624,-472,624,-472,636" />
+
+<item itemtype="Connector" uid="Connector-1590" startpinid="Or Gate-767-out" endpinid="And Gate-749-in0" pointList="-488,592,-472,592,-472,604" />
+
+<item itemtype="Connector" uid="Connector-1592" startpinid="And Gate-769-out" endpinid="Or Gate-766-in1" pointList="-440,640,-440,616,-376,616" />
+
+<item itemtype="Connector" uid="Connector-1594" startpinid="And Gate-750-out" endpinid="Or Gate-748-in0" pointList="-56,608,8,608" />
+
+<item itemtype="Connector" uid="Connector-1595" startpinid="Node-764-2" endpinid="Or Gate-760-in1" pointList="-600,628,-520,628" />
+
+<item itemtype="Connector" uid="Connector-1599" startpinid="And Gate-749-out" endpinid="Or Gate-766-in0" pointList="-440,608,-376,608" />
+
+<item itemtype="Connector" uid="Connector-1601" startpinid="Node-755-1" endpinid="And Gate-758-in0" pointList="-168,620,-168,668,-88,668" />
+
+<item itemtype="Connector" uid="Connector-1602" startpinid="Node-755-2" endpinid="Or Gate-768-in0" pointList="-168,620,-136,620" />
+
+<item itemtype="Connector" uid="Connector-1603" startpinid="Node-762-2" endpinid="Or Gate-768-in1" pointList="-216,628,-136,628" />
+
+<item itemtype="Connector" uid="Connector-1613" startpinid="Node-771-1" endpinid="Node-772-1" pointList="-648,552,-648,600" />
+
+<item itemtype="Connector" uid="Connector-1614" startpinid="Tunnel-657-pin" endpinid="Node-771-0" pointList="-648,492,-648,552" />
+
+<item itemtype="Connector" uid="Connector-1615" startpinid="Node-771-2" endpinid="Xor Gate-623-in0" pointList="-648,552,-472,552" />
+
+<item itemtype="Connector" uid="Connector-1616" startpinid="And Gate-769-in1" endpinid="Node-772-0" pointList="-472,644,-648,644,-648,600" />
+
+<item itemtype="Connector" uid="Connector-1617" startpinid="Node-772-2" endpinid="Or Gate-767-in2" pointList="-648,600,-520,600" />
+
+<item itemtype="Connector" uid="Connector-1618" startpinid="Node-773-1" endpinid="Node-774-1" pointList="-600,520,-600,592" />
+
+<item itemtype="Connector" uid="Connector-1619" startpinid="Tunnel-580-pin" endpinid="Node-773-0" pointList="-600,492,-600,520" />
+
+<item itemtype="Connector" uid="Connector-1620" startpinid="Node-773-2" endpinid="Xor Gate-661-in1" pointList="-600,520,-472,520" />
+
+<item itemtype="Connector" uid="Connector-1621" startpinid="Node-764-0" endpinid="Node-774-0" pointList="-600,628,-600,592" />
+
+<item itemtype="Connector" uid="Connector-1622" startpinid="Node-774-2" endpinid="Or Gate-767-in1" pointList="-600,592,-520,592" />
+
+<item itemtype="Connector" uid="Connector-1623" startpinid="Node-775-1" endpinid="Node-776-1" pointList="-552,512,-552,584" />
+
+<item itemtype="Connector" uid="Connector-1624" startpinid="Tunnel-594-pin" endpinid="Node-775-0" pointList="-552,492,-552,512" />
+
+<item itemtype="Connector" uid="Connector-1625" startpinid="Node-775-2" endpinid="Xor Gate-661-in0" pointList="-552,512,-472,512" />
+
+<item itemtype="Connector" uid="Connector-1626" startpinid="Node-761-0" endpinid="Node-776-0" pointList="-552,620,-552,584" />
+
+<item itemtype="Connector" uid="Connector-1627" startpinid="Node-776-2" endpinid="Or Gate-767-in0" pointList="-552,584,-520,584" />
+
+<item itemtype="Connector" uid="Connector-1629" startpinid="Node-777-1" endpinid="And Gate-749-in1" pointList="-656,616,-656,612,-472,612" />
+
+<item itemtype="Connector" uid="Connector-1630" startpinid="Or Gate-732-out" endpinid="Node-777-0" pointList="-728,616,-656,616" />
+
+<item itemtype="Connector" uid="Connector-1631" startpinid="Node-777-2" endpinid="Xor Gate-623-in1" pointList="-656,616,-656,560,-472,560" />
+
+<item itemtype="Connector" uid="Connector-1632" startpinid="Node-778-1" endpinid="Xor Gate-646-in1" pointList="-272,612,-272,560,-88,560" />
+
+<item itemtype="Connector" uid="Connector-1633" startpinid="Or Gate-766-out" endpinid="Node-778-0" pointList="-344,616,-272,616,-272,612" />
+
+<item itemtype="Connector" uid="Connector-1634" startpinid="Node-778-2" endpinid="And Gate-750-in1" pointList="-272,612,-88,612" />
+
+<item itemtype="Connector" uid="Connector-1635" startpinid="Node-779-1" endpinid="Node-780-1" pointList="-264,552,-264,600" />
+
+<item itemtype="Connector" uid="Connector-1636" startpinid="Tunnel-589-pin" endpinid="Node-779-0" pointList="-264,492,-264,552" />
+
+<item itemtype="Connector" uid="Connector-1637" startpinid="Node-779-2" endpinid="Xor Gate-646-in0" pointList="-264,552,-88,552" />
+
+<item itemtype="Connector" uid="Connector-1638" startpinid="And Gate-753-in1" endpinid="Node-780-0" pointList="-88,644,-264,644,-264,600" />
+
+<item itemtype="Connector" uid="Connector-1639" startpinid="Node-780-2" endpinid="Or Gate-759-in2" pointList="-264,600,-136,600" />
+
+<item itemtype="Connector" uid="Connector-1640" startpinid="Node-781-1" endpinid="Node-782-1" pointList="-216,520,-216,592" />
+
+<item itemtype="Connector" uid="Connector-1641" startpinid="Tunnel-570-pin" endpinid="Node-781-0" pointList="-216,492,-216,520" />
+
+<item itemtype="Connector" uid="Connector-1642" startpinid="Node-781-2" endpinid="Xor Gate-640-in1" pointList="-216,520,-88,520" />
+
+<item itemtype="Connector" uid="Connector-1643" startpinid="Node-762-0" endpinid="Node-782-0" pointList="-216,628,-216,592" />
+
+<item itemtype="Connector" uid="Connector-1644" startpinid="Node-782-2" endpinid="Or Gate-759-in1" pointList="-216,592,-136,592" />
+
+<item itemtype="Connector" uid="Connector-1646" startpinid="Tunnel-617-pin" endpinid="Node-783-0" pointList="-168,492,-168,512" />
+
+<item itemtype="Connector" uid="Connector-1647" startpinid="Node-783-2" endpinid="Xor Gate-640-in0" pointList="-168,512,-88,512" />
+
+<item itemtype="Connector" uid="Connector-1648" startpinid="Node-755-0" endpinid="Node-784-0" pointList="-168,620,-168,584" />
+
+<item itemtype="Connector" uid="Connector-1649" startpinid="Node-784-2" endpinid="Or Gate-759-in0" pointList="-168,584,-136,584" />
+
+<item itemtype="Connector" uid="Connector-1650" startpinid="Or Gate-748-out" endpinid="Tunnel-600-pin" pointList="40,616,72,616" />
+
+<item itemtype="Connector" uid="Connector-1645" startpinid="Node-783-1" endpinid="Node-784-1" pointList="-168,512,-168,584" />
+
+</circuit>
