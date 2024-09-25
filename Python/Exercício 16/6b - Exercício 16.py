@@ -1,6 +1,8 @@
-i = 0
-num = [i]
+
+num = []
 for x in range(0, 3):
-    num = (input("Digite um número: "))
+    i = int(input("Digite um número: "))
+    num.append(i)
+num.sort(reverse=True)
     
 print(num)
