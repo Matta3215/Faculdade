@@ -1,10 +1,17 @@
-turno = (input("Digite o turno em que você estuda(M, V ou N): "))
+sal = float(input("Digite o seu salário: "))
 
-if(turno == "M"):
-    print(f"Bom Dia!\n")
-elif(turno == "V"):
-    print(f"Boa Tarde!\n")
-elif(turno == "N"):
-    print(f"Boa Noite!\n")
-else:
-   print(f"Valor invalido!\n")
+if(sal <= 280):
+    sal *= 1.20
+    print(f"{sal:.2f}")
+
+elif(sal > 280 and sal <= 700):
+    sal *= 1.15
+    print(f"{sal:.2f}")
+
+elif(sal > 700 and sal <= 1500):
+    sal *= 1.10
+    print(f"{sal:.2f}")
+
+elif(sal > 1500 ):
+    sal *= 1.05
+    print(f"{sal:.2f}")
