@@ -3,7 +3,7 @@ n = int(input("Digite o tamanho da sua lista: "))
 lista = []
 
 for x in range(n):
-    b = input("Digite um valor 'true' ou 'false': ").strip().lower()
+    b = input("Digite um valor 'true' ou 'false': ").lower()
     if b == 'true':
         lista.append(True)
     elif b == 'false':
