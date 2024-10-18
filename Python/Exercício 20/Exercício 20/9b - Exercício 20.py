@@ -1,1 +1,0 @@
-print(f"{list(range(11))}")
