@@ -7,4 +7,7 @@ for x in range(n):
     lista.append(num)
     
 print(f"\nLista original: {lista}")
-print(f"Lista certa: {list(set(lista))}\n")
+
+lista.sort(reverse = True)
+print(f"Lista certa: {lista}\n")
+ 
