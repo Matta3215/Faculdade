@@ -6,7 +6,7 @@ def prod_matricial(matriz1, matriz2):
     if matriz1.shape == matriz2.shape:
         return np.dot(matriz_quadrada1, matriz_quadrada2)
     else:
-        exit()
+        print(f"As duas matrizes não possuem o mesmo tamanho")
     
 matriz1 = np.random.randint(1, 10, size=(3,3))
 matriz2 = np.random.randint(1, 10, size=(3,3))
