@@ -1,59 +1,91 @@
 import java.util.Scanner;
 
 public class Main
-{
+{   
 	public static void main(String[] args) {
-	    Scanner scan = new Scanner(System.in);
-	     
-		System.out.println("===================================");
-		System.out.println("               MENU");
-		System.out.println("===================================\n");
-		System.out.println("  Escolha uma das opções abaixo:");
-		System.out.println("[1]Adição");
-		System.out.println("[2]Subtração");
-		System.out.println("[3]Multiplicação");
-		System.out.println("[4]Divisão");
-		System.out.println("[0]Sair");
-		System.out.println("\n===================================\n");
-		
-		int input = scan.nextInt();
-		
-		switch (input){
-		case 1:
-		    System.out.println("\n===================================");
-		    System.out.println("               Adição");
-		    System.out.println("===================================");
-		    break;
-		    
-		case 2:
-		    System.out.println("\n===================================");
-		    System.out.println("              Subtração");
-		    System.out.println("===================================");
-		    break;
-		    
-		case 3:
-		    System.out.println("\n===================================");
-		    System.out.println("             Multiplicação");
-		    System.out.println("===================================");
-		    break;
-		    
-		case 4:
-		    System.out.println("\n===================================");
-		    System.out.println("               Divisão");
-		    System.out.println("===================================");
-		    break;
-		    
-		case 0:
-		    System.out.println("\n===================================");
-		    System.out.println("          Sistema finalizado");
-		    System.out.println("===================================");
-		    break;
-	
-		default:
-		    System.out.println("\n===================================");
-		    System.out.println("            Valor inválido");
-		    System.out.println("===================================");
-		    break;
+	    
+	    int verificador = 1;
+	    while (verificador == 1){
+    	    Scanner scan = new Scanner(System.in);
+    	     
+    		System.out.println("===================================");
+    		System.out.println("               MENU");
+    		System.out.println("===================================\n");
+    		System.out.println("  Escolha uma das opções abaixo:");
+    		System.out.println("[1]Adição");
+    		System.out.println("[2]Subtração");
+    		System.out.println("[3]Multiplicação");
+    		System.out.println("[4]Divisão");
+    		System.out.println("[0]Sair");
+    		System.out.println("\n===================================\n");
+    		
+    		int input = scan.nextInt();
+    		int valor1, valor2, resultado;
+    		float valorfloat1, valorfloat2, resultadofloat;
+    		
+    		switch (input){
+    		
+    		case 1:
+    		    System.out.println("\n===================================");
+    		    System.out.println("               Adição");
+    		    System.out.println("===================================");
+    		    System.out.printf("\nDigite o valor do primeiro número da adição: ");valor1 = scan.nextInt();
+    		    System.out.printf("\nDigite o valor do segundo número da adição: ");valor2 = scan.nextInt();
+    		    resultado = valor1 + valor2;
+    		    System.out.printf("\nO resultado da soma é igual a %d", resultado);
+    		    System.out.println("\n===================================");
+    		    break;
+    		    
+    		case 2:
+    		    System.out.println("\n===================================");
+    		    System.out.println("              Subtração");
+    		    System.out.println("===================================");
+    		    System.out.printf("\nDigite o valor do primeiro número da subtração: ");valor1 = scan.nextInt();
+    		    System.out.printf("\nDigite o valor do segundo número da subtração: ");valor2 = scan.nextInt();
+    		    resultado = valor1 - valor2;
+    		    System.out.printf("\nO resultado da subtração é igual a %d", resultado);
+    		    System.out.println("\n===================================");
+    		    break;
+    		    
+    		case 3:
+    		    System.out.println("\n===================================");
+    		    System.out.println("             Multiplicação");
+    		    System.out.println("===================================");
+    		    System.out.printf("\nDigite o valor do primeiro número da multiplicação: ");valor1 = scan.nextInt();
+    		    System.out.printf("\nDigite o valor do segundo número da multiplicação: ");valor2 = scan.nextInt();
+    		    resultado = valor1 * valor2;
+    		    System.out.printf("\nO resultado da multiplicação é igual a %d", resultado);
+    		    System.out.println("\n===================================");
+    		    break;
+    		    
+    		case 4:
+    		    System.out.println("\n===================================");
+    		    System.out.println("               Divisão");
+    		    System.out.println("===================================");
+    		    System.out.printf("\nDigite o valor do primeiro número da divisão: ");valorfloat1 = scan.nextFloat();
+    		    System.out.printf("\nDigite o valor do segundo número da divisão: ");valorfloat2 = scan.nextFloat();
+    		    resultadofloat = valorfloat1 / valorfloat2;
+    		    System.out.printf("\nO resultado da divisão é igual a %.2f", resultadofloat);
+    		    System.out.println("\n===================================");
+    		    break;
+    		    
+    		case 0:
+    		    System.out.println("\n===================================");
+    		    System.out.println("          Programa finalizado");
+    		    System.out.println("===================================");
+    		    System.exit(0);
+    	
+    		default:
+    		    System.out.println("\n===================================");
+    		    System.out.println("            Valor inválido");
+    		    System.out.println("===================================");
+    		    break;
+		    }
+		    System.out.println("\n[1]Continuar\n[0]Parar\n");
+		    verificador = scan.nextInt();
 		}
+	System.out.println("\n===================================");
+        System.out.println("          Programa finalizado");
+        System.out.println("===================================");
 	}
 }
