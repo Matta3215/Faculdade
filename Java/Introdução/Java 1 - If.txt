@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scan = new Scanner(System.in);
+	     
+		System.out.println("===================================");
+		System.out.println("               MENU");
+		System.out.println("===================================\n");
+		System.out.println("  Escolha uma das opções abaixo:");
+		System.out.println("[1]Adição");
+		System.out.println("[2]Subtração");
+		System.out.println("[3]Multiplicação");
+		System.out.println("[4]Divisão");
+		System.out.println("[0]Sair");
+		System.out.println("===================================\n");
+		
+		int input = scan.nextInt();
+		
+		if (input == 1){
+		    System.out.println("\n===================================");
+		    System.out.println("               Adição");
+		}
+		else if (input == 2){
+		    System.out.println("\n===================================");
+		    System.out.println("              Subtração");
+		}
+		else if (input == 3){
+		    System.out.println("\n===================================");
+		    System.out.println("             Multiplicação");
+		}
+		else if (input == 4){
+		    System.out.println("\n===================================");
+		    System.out.println("               Divisão");
+		}
+		else if (input == 0){
+		    System.out.println("\n===================================");
+		    System.out.println("          Sistema finalizado");
+		}
+		else{
+		    System.out.println("\n===================================");
+		    System.out.println("            Valor inválido");
+		}
+	}
+}
