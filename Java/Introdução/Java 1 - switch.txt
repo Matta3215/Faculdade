@@ -14,7 +14,7 @@ public class Main
 		System.out.println("[3]Multiplicação");
 		System.out.println("[4]Divisão");
 		System.out.println("[0]Sair");
-		System.out.println("===================================\n");
+		System.out.println("\n===================================\n");
 		
 		int input = scan.nextInt();
 		
