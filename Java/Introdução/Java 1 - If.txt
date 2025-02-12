@@ -32,7 +32,7 @@ public class Main
 		else if (input == 2){
 		    System.out.println("\n===================================");
 		    System.out.println("              Subtração");
-		    System.out.println("\n===================================");
+		    System.out.println("===================================");
 		    System.out.println("\nDigite o valor do primeiro valor da Subtração: ");
 		    int valor1 = scan.nextInt();
 		    System.out.println("\nDigite o valor do segundo valor da Subtração: ");
@@ -43,19 +43,23 @@ public class Main
 		else if (input == 3){
 		    System.out.println("\n===================================");
 		    System.out.println("             Multiplicação");
+		    System.out.println("===================================");
 		}
 		else if (input == 4){
 		    System.out.println("\n===================================");
 		    System.out.println("               Divisão");
+		    System.out.println("===================================");
 		}
 		else if (input == 0){
 		    System.out.println("\n===================================");
 		    System.out.println("          Sistema finalizado");
+		    System.out.println("===================================");
 		    System.exit(0);
 		}
 		else{
 		    System.out.println("\n===================================");
 		    System.out.println("            Valor inválido");
+		    System.out.println("===================================");
 		}
 	}
 }
