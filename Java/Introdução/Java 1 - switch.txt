@@ -22,31 +22,37 @@ public class Main
 		case 1:
 		    System.out.println("\n===================================");
 		    System.out.println("               Adição");
+		    System.out.println("===================================");
 		    break;
 		    
 		case 2:
 		    System.out.println("\n===================================");
 		    System.out.println("              Subtração");
+		    System.out.println("===================================");
 		    break;
 		    
 		case 3:
 		    System.out.println("\n===================================");
 		    System.out.println("             Multiplicação");
+		    System.out.println("===================================");
 		    break;
 		    
 		case 4:
 		    System.out.println("\n===================================");
 		    System.out.println("               Divisão");
+		    System.out.println("===================================");
 		    break;
 		    
 		case 0:
 		    System.out.println("\n===================================");
 		    System.out.println("          Sistema finalizado");
+		    System.out.println("===================================");
 		    break;
 	
 		default:
 		    System.out.println("\n===================================");
 		    System.out.println("            Valor inválido");
+		    System.out.println("===================================");
 		    break;
 		}
 	}
