@@ -21,10 +21,24 @@ public class Main
 		if (input == 1){
 		    System.out.println("\n===================================");
 		    System.out.println("               Adição");
+	 	    System.out.println("===================================");
+		    System.out.println("\nDigite o valor do primeiro valor da Adição: ");
+		    int ad1 = scan.nextInt();
+		    System.out.println("\nDigite o valor do segundo valor da Adição: ");
+		    int ad2 = scan.nextInt();
+		    soma = ad1 + ad2
+		    System.out.printf("O resultado da soma é igual a %d", soma);
 		}
 		else if (input == 2){
 		    System.out.println("\n===================================");
 		    System.out.println("              Subtração");
+		    System.out.println("\n===================================");
+		    System.out.println("\nDigite o valor do primeiro valor da Subtração: ");
+		    int valor1 = scan.nextInt();
+		    System.out.println("\nDigite o valor do segundo valor da Subtração: ");
+		    int valor2 = scan.nextInt();
+		    resultado = valor1 - valor2
+		    System.out.printf("O resultado da subtração é igual a %d", resultado);
 		}
 		else if (input == 3){
 		    System.out.println("\n===================================");
@@ -37,6 +51,7 @@ public class Main
 		else if (input == 0){
 		    System.out.println("\n===================================");
 		    System.out.println("          Sistema finalizado");
+		    System.exit(0);
 		}
 		else{
 		    System.out.println("\n===================================");
