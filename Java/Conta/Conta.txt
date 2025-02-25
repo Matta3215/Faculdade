@@ -1,0 +1,17 @@
+package com.mycompany.aula20250225;
+
+public class Conta {
+    int numero;
+    String nome;
+    double saque;
+    double limite = 1000;
+    double saldo = 1500;
+    
+    void Sacar(double v){
+    saldo -= v;
+    }
+    
+    void Deposito(double v){
+    saldo += v;
+    }
+}

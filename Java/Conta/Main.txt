@@ -1,0 +1,25 @@
+package com.mycompany.aula20250225;
+import java.util.Scanner;
+
+public class Aula20250225 {
+    public static void main(String[] args) {
+        Conta ct = new Conta();
+        Scanner scan = new Scanner(System.in);
+       
+        
+        System.out.printf("\nSeu saldo é: %.2f reais", ct.saldo);
+        
+        System.out.printf("\nSeu limite é de %.2f reais\n", ct.limite);
+        
+        System.out.printf("\nDigite quantos reais deseja sacar: \n"); ct.saque = scan.nextFloat();
+        
+        if (ct.saque <= ct.limite){ 
+        ct.Sacar(ct.saque);
+        System.out.printf("\nSeu novo saldo é: %.2f reais", ct.saldo);
+        }
+        if (ct.saque >= ct.limite){ 
+        ct.Sacar(ct.saque);
+        System.out.printf("\nSeu novo saldo é: %.2f reais", ct.saldo);
+        }
+    }
+}

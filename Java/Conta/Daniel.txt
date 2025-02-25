@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scan = new Scanner(System.in);
+	    
+	    int verificador = 1;
+	    while (verificador == 1){
+	        
+		System.out.println("Digite seu nome: ");
+		String nome = scan.nextLine();
+		if(nome == "Daniel"){
+		    System.out.println("O cara mais bonito de Vitória");
+		    System.exit(0);
+		}
+		else{
+		    System.out.println("Digite novamente");
+		}
+	    }
+		
+	}
