@@ -1,15 +1,14 @@
 public class Conta {
     String nome;
     int numero;
-    double valor;
     double limite;
     double saldo;
     
     
     void Info_Dados(){
         System.out.println("\n===================================");
-        System.out.println("\n               CONTA");
-        System.out.println("\n===================================");
+        System.out.println("               CONTA");
+        System.out.println("===================================");
         System.out.printf("Nome: %s", nome);
         System.out.printf("\nNúmero da Conta: %d", numero);
         System.out.printf("\nSeu saldo é:  R$ %.2f", saldo);
@@ -17,19 +16,20 @@ public class Conta {
         System.out.println("\n===================================");
     }
     
-    void Sacar(double valor){
-        if(valor > saldo){
-            System.out.println("\nValor do saldo insuficiente.");
+    void Sacar(double saque){
+        if(saque > limite){
+            System.out.println("Valor do saque ultrapassa o limite.");
         }
-        else if(valor > limite){
-            System.out.println("\nValor do saque ultrapassa o limite.");
+        else if(saque > saldo){
+            System.out.println("Valor do saldo insuficiente.");
         }
         else{
-            saldo -= valor;
+            saldo -= saque;
+            System.out.println("Saque realizado com sucesso!");
         }
     }
     
-    void Deposito(double valor){
-        saldo += valor;
+    void Deposito(double deposito){
+        saldo += deposito;
     }
 }
