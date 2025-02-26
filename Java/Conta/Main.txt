@@ -1,25 +1,47 @@
-package com.mycompany.aula20250225;
 import java.util.Scanner;
 
-public class Aula20250225 {
-    public static void main(String[] args) {
-        Conta ct = new Conta();
+public class Main
+{
+	public static void main(String[] args) {
+		Conta ct = new Conta();
         Scanner scan = new Scanner(System.in);
-       
         
-        System.out.printf("\nSeu saldo é: %.2f reais", ct.saldo);
+        ct.saldo = 1500;
+        ct.limite = 1000;
         
-        System.out.printf("\nSeu limite é de %.2f reais\n", ct.limite);
+        System.out.println("===================================");
+        System.out.printf("\nSeu saldo é: R$ %.2f", ct.saldo);
+        System.out.printf("\nSeu limite é de R$ %.2f\n", ct.limite);
+        System.out.println("\n===================================");
         
-        System.out.printf("\nDigite quantos reais deseja sacar: \n"); ct.saque = scan.nextFloat();
+        int opcao;
+        System.out.printf("\nSaque[1]\nDepósito[2] "); opcao = scan.nextInt();
         
-        if (ct.saque <= ct.limite){ 
-        ct.Sacar(ct.saque);
-        System.out.printf("\nSeu novo saldo é: %.2f reais", ct.saldo);
+        if (opcao == 1){
+            System.out.println("\n===================================");
+            System.out.println("\n               SAQUE");
+            System.out.println("\n===================================");
+            
+            
+            int verificador = 1;
+            while (verificador == 1){
+                
+                System.out.printf("\nDigite quantos reais deseja sacar: "); ct.valor = scan.nextFloat();
+                
+                if (ct.valor <= ct.limite){ 
+                ct.Sacar(ct.valor);
+                System.out.printf("\nSeu novo saldo é: R$ %.2f", ct.saldo);
+                verificador = 0;
+                }
+                
+                else if (ct.valor >= ct.limite){ 
+                System.out.printf("\nValor do saque ultrapassa o limite", ct.limite);
+                }
+                
+                else if (ct.valor > ct.saldo){ 
+                System.out.printf("\nValor do saque ultrapassa seu saldo", ct.saldo);
+                }        
+            }
         }
-        if (ct.saque >= ct.limite){ 
-        ct.Sacar(ct.saque);
-        System.out.printf("\nSeu novo saldo é: %.2f reais", ct.saldo);
-        }
-    }
+	}
 }
