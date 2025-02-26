@@ -22,34 +22,51 @@ public class Main
         ct2.Info_Dados();
         ct1.Info_Dados();
         
-        int verificador = 1;
-        while (verificador == 1){
-            System.out.printf("\nSaque[1]\nDepósito[2]\n"); 
-            int opcao = scan.nextInt();
+        int verificador1 = 1;
+        while (verificador1 == 1){
+            
+            int verificador = 1;
+            while (verificador == 1){
+                System.out.println("===================================");
+                System.out.printf("Saque[1]\nDepósito[2]\n"); 
+                System.out.println("===================================");
+                
+                int opcao = scan.nextInt();
+                if (opcao == 1){
+                    System.out.println("\n===================================");
+                    System.out.println("               SAQUE");
+                    System.out.println("===================================");
+                    System.out.printf("Digite quantos reais deseja sacar: "); double valor = scan.nextDouble();
+                    ct1.Sacar(valor);
+                    
+                    verificador = 0;
+                }
+                else if (opcao == 2){
+                    System.out.println("\n===================================");
+                    System.out.println("               DEPÓSITO");
+                    System.out.println("===================================");
+                    System.out.printf("Digite quantos reais deseja depositar: "); double valor = scan.nextDouble();
+                    ct1.Deposito(valor);
+                    
+                    verificador = 0;
+                }
+                else{
+                    System.out.println("\nValor inválido");
+                }
+            }
+        do{
+            System.out.println("===================================");
+            System.out.printf("Deseja fazer outra ação?\nSim[1]\nNão[2]\nVer Menu[3]\n");
+            System.out.println("===================================");
+            verificador1 = scan.nextInt();
+            if (verificador1 == 2){
+                System.out.println("\nPrograma Finalizado!");
+            }
+            else if (verificador1 == 3){
+                ct1.Info_Dados();
+            }
+        }while (verificador1 < 1 || verificador1 > 2);
         
-            if (opcao == 1){
-                System.out.println("\n===================================");
-                System.out.println("\n               SAQUE");
-                System.out.println("\n===================================");
-                System.out.printf("\nDigite quantos reais deseja sacar: "); ct1.valor = scan.nextFloat();
-                ct1.Sacar(ct1.valor);
-                
-                ct1.Info_Dados();
-                verificador = 0;
-            }
-            else if (opcao == 2){
-                System.out.println("\n===================================");
-                System.out.println("\n               DEPÓSITO");
-                System.out.println("\n===================================");
-                System.out.printf("\nDigite quantos reais deseja depositar: "); ct1.valor = scan.nextFloat();
-                ct1.Deposito(ct1.valor);
-                
-                ct1.Info_Dados();
-                verificador = 0;
-            }
-            else{
-                System.out.printf("\nValor inválido");
-            }
         }
-    }
+	}
 }
