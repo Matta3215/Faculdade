@@ -1,17 +1,34 @@
-package com.mycompany.aula20250225;
-
 public class Conta {
-    int numero;
     String nome;
-    double saque;
-    double limite = 1000;
-    double saldo = 1500;
-    
-    void Sacar(double v){
-    saldo -= v;
+    int numero;
+    double valor;
+    double limite;
+    double saldo;
+
+    void Info_Dados(){
+        System.out.println("\n===================================");
+        System.out.println("\n               CONTA");
+        System.out.println("\n===================================");
+        System.out.printf("Nome: %s", nome);
+        System.out.printf("\nNúmero da Conta: %d", numero);
+        System.out.printf("\nSeu saldo é:  R$ %.2f", saldo);
+        System.out.printf("\nSeu limite é: R$ %.2f", limite);
+        System.out.println("\n===================================");
     }
     
-    void Deposito(double v){
-    saldo += v;
+    void Sacar(double valor){
+        if(valor > saldo){
+            System.out.println("\nValor do saldo insuficiente.");
+        }
+        else if(valor > limite){
+            System.out.println("\nValor do saque ultrapassa o limite.");
+        }
+        else{
+            saldo -= valor;
+        }
+    }
+    
+    void Deposito(double valor){
+        saldo += valor;
     }
 }
