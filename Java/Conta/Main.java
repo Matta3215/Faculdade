@@ -1,10 +1,3 @@
-/******************************************************************************
-
-                            Online Java Compiler.
-                Code, Compile, Run and Debug java program online.
-Write your code in this editor and press "Run" button to execute it.
-
-*******************************************************************************/
 import java.util.Scanner;
 
 public class Main
@@ -12,16 +5,27 @@ public class Main
 	public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
+        Cliente cli1, cli2;
+		cli1 = new Cliente();
+		cli2 = new Cliente();
+		
 		Conta ct1, ct2; 
         ct1 = new Conta();
         ct2 = new Conta();
         
-        ct1.nome = "Matta";
+        ct1.titular = cli1;
+        ct2.titular = cli2;
+        
+        ct1.titular.nome = "Arthur";
+        ct1.titular.sobrenome = "Agostini";
+        ct1.titular.cpf = "555.724.276-08";
         ct1.numero = 1;
         ct1.saldo = 15000;
         ct1.limite = 1500;
         
-        ct2.nome = "Luis";
+        ct2.titular.nome = "Luiz Inácio";
+        ct2.titular.sobrenome = "Lula";
+        ct2.titular.cpf = "131.313.131-13";
         ct2.numero = 13;
         ct2.saldo = 13000;
         ct2.limite = 1300;
@@ -29,13 +33,17 @@ public class Main
         ct2.Info_Dados();
         ct1.Info_Dados();
         
+        cli1.Casar(cli2);
+        
+        System.out.println(c1.titular.conjuge.nome);
+        
         int verificador1 = 1;
         while (verificador1 == 1){
             
             int verificador = 1;
             while (verificador == 1){
                 System.out.println("===================================");
-                System.out.printf("Saque[1]\nDepósito[2]\n"); 
+                System.out.printf("[1] Saque\n[2] Depósito\n"); 
                 System.out.println("===================================");
                 
                 int opcao = scan.nextInt();
@@ -63,7 +71,7 @@ public class Main
             }
         do{
             System.out.println("===================================");
-            System.out.printf("Deseja fazer outra ação?\nSim[1]\nNão[2]\nVer Menu[3]\n");
+            System.out.printf("Deseja fazer outra ação?\n[1] Sim\n[2] Não\n[3] Ver Menu\n");
             System.out.println("===================================");
             verificador1 = scan.nextInt();
             if (verificador1 == 2){
