@@ -6,7 +6,7 @@ public class Cliente{
     
     public void Casar(Cliente conjuge){
         
-        if(this.conjuge != null){
+        if(this.conjuge == null){
             this.conjuge = conjuge;
             this.conjuge.conjuge = this;
         }
