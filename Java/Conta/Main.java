@@ -33,9 +33,9 @@ public class Main
         ct2.Info_Dados();
         ct1.Info_Dados();
         
-        cli1.Casar(cli2);
+         ct1.titular.Casar(ct2.titular);
         
-        System.out.println(c1.titular.conjuge.nome);
+        System.out.printf("\n%s está casado com %s\n\n", ct1.titular.nome, ct1.titular.conjuge.nome);
         
         int verificador1 = 1;
         while (verificador1 == 1){
