@@ -56,10 +56,13 @@ public class Aluno{
     }
     public String SetMatricula(){
         Random rand = new Random();
-        int numero = rand.nextInt(4);
+        int numero1 = rand.nextInt(9);
+        int numero2 = rand.nextInt(9);
+        int numero3 = rand.nextInt(9);
+        int numero4 = rand.nextInt(9);
         int ano_atual = Year.now().getValue();
         
-        String matriculaData =  Integer.toString(ano_atual) + Integer.toString(numero); 
+        String matriculaData =  Integer.toString(ano_atual) + Integer.toString(numero1) + Integer.toString(numero2) + Integer.toString(numero3) + Integer.toString(numero4); 
         return matriculaData;
     }
     
