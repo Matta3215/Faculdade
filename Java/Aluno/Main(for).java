@@ -4,15 +4,22 @@ public class Main
         Aluno al;
         al = new Aluno();
         
-        al.SetPeriodo(3);
+        al.setNome("Arthur");
+        al.setCurso("Ciencia");
+        al.setTurma('C');
+        al.setPeriodo(3);
+        al.setNota_1b(20);
+        al.setNota_2b(16);
         
         
-        al.TrocarInfo(al.SetMatricula(), "Arthur", "Ciencia", 'C', al.GetPeriodo(), 20, 14, 15);
+        al.Aluno(al.SetMatricula(), al.getNome(), al.getCurso(), al.getTurma(), al.getPeriodo(), al.getNota_1b(), al.getNota_2b());
         al.ImprimirInfo();
         al.CalcMedia();
-        al.SetPeriodo(4);
-        al.Passar('D', al.GetPeriodo());
-        al.ImprimirInfo();
         
+        al.setPeriodo(4); 
+        al.setTurma('D');
+        
+        al.Passar(al.getTurma(), al.getPeriodo());
+        al.ImprimirInfo();
 	}
 }
