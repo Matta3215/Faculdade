@@ -1,6 +1,4 @@
-package com.mycompany.aula20250415.mapcontato;
-
-public class Aula20250415MapContato {
+public class Main {
 
     public static void main(String[] args) {
         System.out.println("AGENDA");
