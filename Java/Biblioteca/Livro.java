@@ -1,55 +1,53 @@
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Livro{
-
-private String titulo;
-private int anoPubli;
-Autor autor
-Set<Livro> autores;
-Editora editora;
-
-public Livro(String titulo, int anoPubli, Editora editora){
-    this.titulo = titulo;
-    this.anoPubli = anoPubli;
-    this.autores = new HashSet<>();
-    this.editora = editora;
-} 
-
-public void adicionarAutor(Autor autor){
-    boolean retorno = autores.add(autor);
+    private String titulo;
+    private int anoPubli;
+    private List<Autor> autores = new ArrayList<>();
+    Editora editora;
     
-    if (retorno == true){
-        System.out.println("Autor adicionado");
-    }else{
-        System.out.println("Autor já adiocionado");
+    public Livro(String titulo, int anoPubli, Editora editora){
+        this.titulo = titulo;
+        this.anoPubli = anoPubli;
+        this.editora = editora;
     }
-}
-
-public void imprimir(){
-    if (this.autores.isEmpty()){
-        System.out.println("Não há autores");
-    }else{
-        System.out.println("Livro: " + this.titulo + ", Ano de publicação: " + this.anoPubli ", Editora: " + this.editora);
-        for (autores temp : autores){
-            System.out.println("Autores: " + autores);
+    
+    public void adicionarAutor(Autor autor){
+        autores.add(autor);
+        System.out.println("Autor adicionado");
+    }
+    
+    public void Imprimir(){
+        System.out.println("Livro: " + titulo);
+        System.out.println(editora.toString());
+        for(Autor temp: autores){
+            System.out.println(temp);
         }
     }
-}
-
-public String getTitulo(){
-    return titulo;
-}
-
-public void setTitulo(String titulo){
-    this.titulo = titulo;
-}
-
-public String getanoPubli(){
-    return anoPubli;
-}
-
-public void setanoPubli(String anoPubli){
-    this.anoPubli = anoPubli;
-}
+        
+    public int getAnoPubli(){
+        return anoPubli;
+    }
+    
+    public void setAnoPubli(int anoPubli){
+        this.anoPubli = anoPubli;
+    }
+    
+    public String getTitulo(){
+       return titulo;
+    }
+    
+    public void setTitulo(String titulo){
+        this.titulo = titulo;
+    }
+    
+    public List<Autor> getAutores() {
+        return autores;
+    }
+    
+    @Override
+    public String toString(){
+        return "Livro{titulo: " + titulo + ", Ano de Publicação: " + anoPubli + '}';
+    }
 }
