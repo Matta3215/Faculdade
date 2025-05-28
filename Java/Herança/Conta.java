@@ -24,7 +24,4 @@ public abstract class Conta {
     public String TipoConta(){
         return "Conta Simples";
     }
-    
-    
-    
 }
