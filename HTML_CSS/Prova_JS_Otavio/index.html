@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário e Tabela</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <p></p>
+    <main>
+            <form id="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+                
+                <label for="matricula">Matrícula:</label>
+                <input type="text" id="matricula" name="matricula" required><br><br>
+                
+                <label for="nota1">Nota 1:</label>
+                <input type="number" id="nota1" name="nota1" step="0.1" required><br><br>
+                
+                <label for="nota2">Nota 2:</label>
+                <input type="number" id="nota2" name="nota2" step="0.1" required><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+    </main>
+    <p></p>
+    <footer>
+        <h1>Tabela:</h1>
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Matrícula</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Média</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody id="corpo-tabela"></tbody>
+        </table>
+        
+        <script src="index.js"></script>
+    </footer> 
+    </body>
+    </html>

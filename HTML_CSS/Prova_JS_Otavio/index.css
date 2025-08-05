@@ -1,0 +1,36 @@
+header {
+    background-color:aliceblue ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-width: 3px;
+}
+main {
+    border-radius: 50px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+footer{
+    border-radius: 50px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+table {
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+}
+table th { 
+    border-style: solid;
+    border-width: 1px;
+}
+table td { 
+    border-style: solid;
+    border-width: 1px;
+}
